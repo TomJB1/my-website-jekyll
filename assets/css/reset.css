@@ -1,0 +1,54 @@
+:root
+{
+    /*
+    --background-main: #24323E;
+    --textbg-main: #EBEBD3;
+    --text-main: #000000;
+    --text-highlight: #E03616;
+    
+    --background-main: #3c6d39;
+    --textbg-main: #6b9669;
+    --text-main: #000000;
+    --text-highlight: #4d2d0b;
+    */
+    --background-main: #ffffff;
+    --background-highlight: #aaa6f3;
+    --textbg-main: #0b0e4d;
+    --text-main: #000000;
+    --text-highlight: #44edf9;
+    --textbg-highlight: #13198d;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0px;
+    font-family: sans-serif, "URW Gothic L";
+    background-color: var(--background-main);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a:any-link
+{
+    color: var(--text-main);
+}
+
+input
+{
+    outline: none;
+    border:none;
+    background-image:none;
+    background-color:white;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;  
+}
+
+hr
+{
+    border-style: solid;
+}

@@ -1,0 +1,14 @@
+---
+---
+/* TEAM */
+	Everything so far: Tom Brandis
+	Contact: tomjbrandis [at] gmail.com
+	From: UK
+
+/* THANKS */
+
+/* SITE */
+	Last update:{{ "now" | date: "%Y/%m/%d %H:%M" }}
+	Language: English
+	Doctype:HTML5
+	IDE: VSCode, GIMP

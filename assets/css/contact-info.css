@@ -1,0 +1,36 @@
+#contact-info
+{
+    font-family: "Lucida Sans Typewriter", cursive;
+    background-color: rgb(178, 0, 0);
+    margin-top: 0px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    overflow-y:hidden;
+
+    h1{
+        margin: 0px;
+        padding-top: 40px;
+        font-size: 70px;
+        color: #180101;
+        background-color: rgb(255, 0, 0);
+        box-shadow: 0px 0px 105px 100px rgb(255, 0, 0);
+        width: fit-content;
+        letter-spacing: 0.444em;
+        font-weight: 400;
+        word-wrap: anywhere;
+    }
+
+    a{
+        font-family: cursive;
+        color: black;
+        margin: 6px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline solid 1px black;
+    }
+
+    
+}
