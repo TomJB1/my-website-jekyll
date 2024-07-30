@@ -4,9 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/posts.css" | relative_url }}">
   </head>
   <body>
+    <h1>{{page.title}}</h1>
+    <p id="publish-date">
+    published: {{page.date | date: "%-d %B %Y" }}
+    {% if page.edited_date != nil and page.edited_date != "" %}
+    edited: {{page.edited_date | date: "%-d %B %Y" }}
+    {%endif%}
+    </p>
+    <div id="post-content">
     {{ content }}
+    </div>
   </body>
 </html>
