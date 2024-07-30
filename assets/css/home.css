@@ -1,12 +1,7 @@
-body{
-    font-family: "Lucida Sans Typewriter", cursive, sans-serif;
-    margin: 0px;
+body {
     background-image: linear-gradient(#ff00005c 2px, transparent 1px);
     background-size: 100% 2cm;
-
-a{
-    color: black;
-}
+    margin: 0px;
 }
 
 #bio p{

@@ -23,18 +23,24 @@
     box-sizing: border-box;
 }
 
-body
-{
-    margin: 0px;
-    font-family: sans-serif, "URW Gothic L";
-    background-color: var(--background-main);
-    overflow-x: hidden;
+
+body{
+    font-family: "Lucida Sans Typewriter", cursive, sans-serif;
     scroll-behavior: smooth;
+
+a{
+    color: black;
+}
 }
 
-a:any-link
+a:link
 {
     color: var(--text-main);
+}
+
+a:visited
+{
+    color: #5902dd;
 }
 
 input
