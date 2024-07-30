@@ -60,14 +60,22 @@ Biography: Hi! I'm Tom. I do Physics, Computer Science and Maths at A level and 
             
         </div>
         <div id="things" aria-live="assertive">
-            {% for skill in site.data.skills %}
-            {% assign tagArray = skill.Tags | split: " " %}
-            <div class="thing {{tagArray | join: " " }}">
-                <h2>{{skill.Title}}</h2>
-                {% if skill.Link != nil %}
-                <a href="{{skill.Link}}">{{skill.Link}}</a>
+            {% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil" %}
+            {% assign things = skillPosts | concat: site.data.skills %}
+            {% for thing in things %}
+            
+            {% if thing.skills.first %}
+            {% assign skills = thing.skills %}
+            {% else %}
+            {% assign skills = thing.skills | split: " " %}
+            {% endif %}
+
+            <div class="thing {{skills | join: " " }}">
+                <h2>{{thing.title}}</h2>
+                {% if thing.link != nil or thing.url != nil%}
+                <a href="{{thing.link}}{{thing.url}}">{{thing.link}}{{thing.url}}</a>
                 {%endif%}
-                <p>{{tagArray | join: ", "}}</p>
+                <p>{{skills | join: ", "}}</p>
             </div>
             {% endfor %}
         </div>
