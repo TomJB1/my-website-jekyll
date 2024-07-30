@@ -1,7 +1,7 @@
 things = document.getElementsByClassName("thing")
 selectors = document.getElementsByClassName("selector")
 skillSection = document.getElementById("select-skills")
-let tags = {}
+let skills = {}
 console.log(things);
 
 function filter(e) {
@@ -25,9 +25,9 @@ function showAll(){
     }
 }
 
-function showTagged(tag){
+function showTagged(skill){
     for (let thing of things) {
-        if(thing.classList.contains(tag)){
+        if(thing.classList.contains(skill)){
             thing.classList.remove("hide")
         } 
         else{
@@ -38,24 +38,23 @@ function showTagged(tag){
 
 for (let thing of things) {
     console.log(thing.classList);
-    for (let tag of thing.classList) {
-        if(tag!="thing"){
-            tags[tag]=true
+    for (let skill of thing.classList) {
+        if(skill!="thing"){
+            skills[skill]=true
         }
     }
 }
-console.log(tags);
 
-for (let tag of Object.keys(tags)) {
+for (let skill of Object.keys(skills)) {
     label = document.createElement("label")
-    label.innerText=tag+" "
+    label.innerText=skill+" "
     label.classList.add("selector-label")
 
     checkbox=document.createElement("input")
     checkbox.type="checkbox"
     checkbox.classList.add("selector")
     checkbox.addEventListener("click", filter)
-    checkbox.dataset.tagNames=tag
+    checkbox.dataset.tagNames=skill
     label.append(checkbox)
     skillSection.append(label)
 }
