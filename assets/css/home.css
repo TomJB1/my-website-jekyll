@@ -71,7 +71,7 @@ label:has(> input:checked)
         }
         p{
             margin-top: 10px;
-            font-family: cursive
+            font-family: "Lucida Sans Typewriter", "Times New Roman", serif;
         }
     }
 
