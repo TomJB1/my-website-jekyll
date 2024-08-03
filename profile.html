@@ -60,7 +60,7 @@ Biography: Hi! I'm Tom. I do Physics, Computer Science and Maths at A level and 
             
         </div>
         <div id="things" aria-live="assertive">
-            {% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil" %}
+            {% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil and post.skills.size != 0 " %}
             {% assign things = skillPosts | concat: site.data.skills %}
             {% for thing in things %}
             
