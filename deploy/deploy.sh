@@ -6,13 +6,29 @@ echo "$JEKYLL_DIR"
 SITE_DIR=$JEKYLL_DIR/_site
 echo $SITE_DIR
 
-if [[ `git status --porcelain` ]]; then
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -c|--clean) clean=1 ;;
+        -f|--force) force=1 ;;
+        -e|--existing) existing=1 ;;
+        *) echo "Unknown parameter passed: $1"; exit 1 ;;
+    esac
+    shift
+done
+
+if [[ `git status --porcelain` ]] && [ -z "$force" ]; then
 echo "commit changes"
 else
-jekyll build -s $JEKYLL_DIR -d $SITE_DIR
+    if [ -n "$existing" ]; then
+    echo "not rebuilding"
+    else
+    jekyll build -s $JEKYLL_DIR -d $SITE_DIR
+    fi
 
-ssh root@tombrandis.uk.to < $SCRIPT_DIR/delete_folder.sh
+    if [ -n "$clean" ]; then
+    ssh root@tombrandis.uk.to < $SCRIPT_DIR/delete_folder.sh
+    fi
 
-scp -r $JEKYLL_DIR/_site root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+rsync -r -v $JEKYLL_DIR/_site root@tombrandis.uk.to:/var/www/my-website-jekyll-built
 
 fi
