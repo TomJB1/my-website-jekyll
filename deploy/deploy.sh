@@ -29,6 +29,6 @@ else
     ssh root@tombrandis.uk.to < $SCRIPT_DIR/delete_folder.sh
     fi
 
-rsync -r -v $JEKYLL_DIR/_site root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
 
 fi
