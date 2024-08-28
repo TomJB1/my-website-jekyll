@@ -11,6 +11,7 @@ while [[ "$#" -gt 0 ]]; do
         -c|--clean) clean=1 ;;
         -f|--force) force=1 ;;
         -e|--existing) existing=1 ;;
+        -l|--local) local=1 ;;
         *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
     shift
@@ -25,10 +26,13 @@ else
     jekyll build -s $JEKYLL_DIR -d $SITE_DIR
     fi
 
-    if [ -n "$clean" ]; then
+    if [ -n "$clean" ] && [ -z "$local" ]; then
     ssh root@tombrandis.uk.to < $SCRIPT_DIR/delete_folder.sh
     fi
 
-rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
-
+    if [ -z "$local" ]; then
+        rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+    else
+        echo "local build - not publishing to server"
+    fi
 fi
