@@ -18,6 +18,7 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
+git fetch
 if [[ `git status --porcelain` ]] && [ -z "$force" ]; then
 echo "commit changes"
 else
