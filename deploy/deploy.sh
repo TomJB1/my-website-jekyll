@@ -12,6 +12,7 @@ while [[ "$#" -gt 0 ]]; do
         -f|--force) force=1 ;;
         -e|--existing) existing=1 ;;
         -l|--local) local=1 ;;
+        -m|--maxify) maxify=1 ;;
         *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
     shift
@@ -24,6 +25,10 @@ else
     echo "not rebuilding"
     else
     jekyll build -s $JEKYLL_DIR -d $SITE_DIR
+    fi
+
+    if [ -z "$maxify" ]; then
+    npx lightningcss --minify $JEKYLL_DIR/_site/assets/css/*.css -d $JEKYLL_DIR/_site/assets/css/
     fi
 
     if [ -n "$clean" ] && [ -z "$local" ]; then
