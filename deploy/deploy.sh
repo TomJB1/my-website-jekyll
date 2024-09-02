@@ -23,21 +23,27 @@ if [[ `git status --porcelain` ]] && [ -z "$force" ]; then
 echo "commit changes"
 else
     if [ -n "$existing" ]; then
-    echo "not rebuilding"
+        echo "not rebuilding"
     else
-    jekyll build -s $JEKYLL_DIR -d $SITE_DIR
+        jekyll build -s $JEKYLL_DIR -d $SITE_DIR
     fi
 
     if [ -z "$maxify" ]; then
-    npx lightningcss --minify $JEKYLL_DIR/_site/assets/css/*.css -d $JEKYLL_DIR/_site/assets/css/
+        npx lightningcss --minify $JEKYLL_DIR/_site/assets/css/*.css -d $JEKYLL_DIR/_site/assets/css/
     fi
 
     if [ -n "$clean" ] && [ -z "$local" ]; then
-    ssh root@tombrandis.uk.to < $SCRIPT_DIR/delete_folder.sh
+        ssh root@tombrandis.uk.to < $SCRIPT_DIR/delete_folder.sh
     fi
 
     if [ -z "$local" ]; then
-        rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+        if [[ "$OSTYPE" == "msys" ]]; then
+            export MSYS_NO_PATHCONV=1
+            rsync -r -v -e /usr/bin/ssh /cygdrive/$JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+            unset MSYS_NO_PATHCONV 
+        else
+            rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+        fi
     else
         echo "local build - not publishing to server"
     fi
