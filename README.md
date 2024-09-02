@@ -15,3 +15,5 @@ Remember to push posts!
 * node and npm:
     * [lightningcss-cli](https://lightningcss.dev/docs.html)
 * rsync
+3. Only on Windows:
+You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/WindowsApps/jekyll` to the path to the path of your ruby executable
