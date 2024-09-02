@@ -39,7 +39,7 @@ else
     if [ -z "$local" ]; then
         if [[ "$OSTYPE" == "msys" ]]; then
             export MSYS_NO_PATHCONV=1
-            rsync -r -v -e /usr/bin/ssh /cygdrive/$JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+            rsync -r -v -e "/usr/bin/ssh -o UserKnownHostsFile=~/.ssh/known_hosts" /cygdrive/$JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
             unset MSYS_NO_PATHCONV 
         else
             rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
