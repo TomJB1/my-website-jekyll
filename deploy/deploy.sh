@@ -25,7 +25,7 @@ else
     if [ -n "$existing" ]; then
         echo "not rebuilding"
     else
-        jekyll build -s $JEKYLL_DIR -d $SITE_DIR
+        jekyll build --incremental -s $JEKYLL_DIR -d $SITE_DIR
     fi
 
     if [ -z "$maxify" ]; then
