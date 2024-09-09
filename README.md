@@ -10,7 +10,7 @@ Remember to push posts!
 # Deploying/developing site
 1. Clone repo
 2. Install:
-* bash
+* bash (git bash on Windows)
 * [jekyll](https://jekyllrb.com/docs/installation/)
 * node and npm:
     * [lightningcss-cli](https://lightningcss.dev/docs.html)
