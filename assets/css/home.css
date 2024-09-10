@@ -96,3 +96,7 @@ label:has(> input:checked)
         }
     }
 }
+
+.rss-feed {
+    display: none;
+}
