@@ -44,6 +44,8 @@ else
         else
             rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
         fi
+
+        ssh root@tombrandis.uk.to < $SCRIPT_DIR/ownership.sh
     else
         echo "local build - not publishing to server"
     fi
