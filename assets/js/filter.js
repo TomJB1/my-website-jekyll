@@ -2,7 +2,6 @@ things = document.getElementsByClassName("thing")
 selectors = document.getElementsByClassName("selector")
 skillSection = document.getElementById("select-skills")
 let skills = {}
-console.log(things);
 
 function filter(e) {
     showAll();
@@ -21,23 +20,22 @@ function filter(e) {
 
 function showAll(){
     for (let thing of things) {
-        thing.classList.remove("hide")
+        thing.hidden = false
     }
 }
 
 function showTagged(skill){
     for (let thing of things) {
         if(thing.classList.contains(skill)){
-            thing.classList.remove("hide")
+            thing.hidden = false
         } 
         else{
-            thing.classList.add("hide")
+            thing.hidden = true
         }
     }
 }
 
 for (let thing of things) {
-    console.log(thing.classList);
     for (let skill of thing.classList) {
         if(skill!="thing"){
             skills[skill]=true
