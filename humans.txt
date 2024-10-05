@@ -10,6 +10,7 @@ People from the internet:
 Liakos (SO): rsync on windows
 John Vincent (johnvincent.io): RSS in liquid
 detectadblock.com: no-adblock detecting gimick
+independent-software.com: sitemap in liquid
 
 /* SITE */
 	Last update:{{ "now" | date: "%Y/%m/%d %H:%M" }}

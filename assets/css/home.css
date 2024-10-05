@@ -8,12 +8,6 @@ body {
     text-align: center;
 }
 
-.hide
-{
-    display: none;
-}
-
-
 .selector-label{
     border-radius: 3px;
     margin: 5px;
@@ -95,4 +89,8 @@ label:has(> input:checked)
             margin: 50px;
         }
     }
+}
+
+.rss-feed {
+    display: none;
 }
