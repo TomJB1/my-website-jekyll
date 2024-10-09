@@ -1,3 +1,10 @@
+body {
+    background-image: linear-gradient(#ff00005c 2px, transparent 1px);
+    background-size: 100% 2cm;
+    margin: 0px;
+}
+
+
 #contact-info
 {
     font-family: "Lucida Sans Typewriter", "Times New Roman", serif;
