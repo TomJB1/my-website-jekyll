@@ -67,7 +67,7 @@ Biography: Hi! I'm Tom. I do Physics, Computer Science and Maths at A level and 
         </div>
         <div id="things" aria-live="assertive">
             {% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil and post.skills.size != 0 " %}
-            {% assign things = skillPosts | concat: site.data.skills %}
+            {% assign things = skillPosts | concat: site.reports | concat: site.data.skills %}
             {% for thing in things %}
             
             {% if thing.skills.first %}
@@ -79,7 +79,10 @@ Biography: Hi! I'm Tom. I do Physics, Computer Science and Maths at A level and 
             <div class="thing {{skills | join: " " }}">
                 <h2>{{thing.title}}</h2>
                 {% if thing.link != nil or thing.url != nil%}
-                <a href="{{thing.link}}{{thing.url}}">{{thing.link}}{{thing.url}}</a>
+                    <a href="{{thing.link}}{{thing.url}}">link</a>
+                    {% if thing.pdf != nil %}
+                    | <a href="{{thing.pdf}}">pdf</a>
+                    {%endif%}
                 {%endif%}
                 <p>{{skills | join: ", "}}</p>
             </div>

@@ -8,3 +8,5 @@ collections:
   posts:
     output: true
     permalink: /:collection/:title.html
+  reports:
+    output: true
