@@ -12,11 +12,11 @@ regenerate: true
     <link rel="stylesheet" href="/assets/css/reset.css">
 </head>
 <body>
-    <h1>index of posts</h1>
+    <h1>index of posts (<a href="/rss/feed.xml">rss</a>)</h1>
     <ul>
         {% for post in site.posts %}
           <li>
-            <a href="{{ post.url }}">{{ post.title }} - {{post.date | date: "%-d %B %Y" }}</a>
+            {{post.date | date: "%d/%m/%y" }} - <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
       </ul>
