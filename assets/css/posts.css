@@ -27,7 +27,7 @@ h1
     width: 80%;
     max-width: 35rem;
 
-    & p
+    & p, li
     {
         line-height: 2rem;
         font-family: sans-serif;
@@ -37,6 +37,13 @@ h1
             font-size:1rem;
         }
         
+    }
+}
+
+a {
+    text-decoration: underline dotted;
+    &:hover {
+        text-decoration: underline;
     }
 }
 
