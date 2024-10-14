@@ -2,4 +2,7 @@
     <a href="/"><h1>Tom Brandis</h1></a>
     <a href="mailto:tomjbrandis@gmail.com" target="_blank">tomjbrandis@gmail.com</a>
     <a href="https://github.com/TomJB1" target="_blank">Github - TomJB1</a>
+    {% for status in site.data.status %}
+    <p>{{status[0]}}: {{status[1]}}</p>
+    {%endfor%}
 </header>
