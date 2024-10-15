@@ -19,5 +19,10 @@
     <div id="post-content">
     {{ content }}
     </div>
+    {% for post in site.posts %}
+    {% if post.previous_in_series == page.title %}
+    <a href="{{post.url}}">next post in series: {{post.title}}</a>
+    {% endif %}
+    {%endfor%}
   </body>
 </html>
