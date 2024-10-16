@@ -16,13 +16,39 @@
     edited: {{page.edited_date | date: "%-d %B %Y" }}
     {%endif%}
     </p>
-    <div id="post-content">
+    <main id="post-content">
     {{ content }}
-    </div>
+    </main>
+
+    <footer id="other-posts">
+
     {% for post in site.posts %}
-    {% if post.previous_in_series == page.title %}
-    <a href="{{post.url}}">next post in series: {{post.title}}</a>
-    {% endif %}
+      {% if post.previous_in_series == page.title %}
+        <h2>next post in series</h2>
+        <a href="{{post.url}}">{{post.title}}</a>
+      {% endif %}
+    
     {%endfor%}
+
+    {% assign has_heading = false %}
+    {% for post in site.posts %}
+      {% for tag in page.tags %}
+
+        {% if post.tags contains tag and post.title!=page.title and post.previous_in_series!=page.title%}
+          {%  if has_heading != true %}
+            <h2>related posts</h2>
+            {% assign has_heading = true %}
+          {%endif%}
+          <a href="{{post.url}}">{{post.title}}</a>
+          {%break%}
+        {%endif%}
+      
+      {%endfor%}
+    {%endfor%}
+    
+    <h2>view source</h2>
+    <a href="https://github.com/TomJB1/my-website-jekyll/blob/main/_posts/{{page.name}}?plain=1">github</a>
+
+    </footer>
   </body>
 </html>

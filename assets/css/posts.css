@@ -23,6 +23,7 @@ h1
 #post-content
 {
     margin: auto;
+    margin-bottom: 300px;
     width: 80%;
     max-width: 35rem;
     text-align: left;
@@ -47,3 +48,6 @@ a {
     }
 }
 
+#other-posts a {
+    display: block;
+}
