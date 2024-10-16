@@ -10,3 +10,6 @@ collections:
     permalink: /:collection/:title.html
   reports:
     output: true
+
+compress_html:
+  blanklines: true
