@@ -10,8 +10,8 @@ edited_date:
 title: the wall message board
 ---
 I had a idea for a message board with only 10 messages on it. It sounded cool so I made it over the weekend in [Golang](https://go.dev/).
-It's [here](https://the-wall.tombrandis.uk.to) if you want to check it out. 
-I've released the source code [here](https://github.com/TomJB1/the-graffiti-wall) on Github under the GPL-3.0 licence.
+Visit [the website](https://the-wall.tombrandis.uk.to) if you want to check it out. 
+I've released the [source code](https://github.com/TomJB1/the-graffiti-wall) on Github under the GPL-3.0 licence.
 
 ---
 I'll don't really have anything interesting to say about this other than:
