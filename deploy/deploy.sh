@@ -33,7 +33,7 @@ else
     fi
 
     if [ -n "$clean" ] && [ -z "$local" ]; then
-        ssh root@tombrandis.uk.to < $SCRIPT_DIR/delete_folder.sh
+        ssh root@tombrandis.uk.to < $SCRIPT_DIR/on_server/delete_folder.sh
     fi
 
     if [ -z "$local" ]; then
@@ -45,7 +45,7 @@ else
             rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
         fi
 
-        ssh root@tombrandis.uk.to < $SCRIPT_DIR/ownership.sh
+        ssh root@tombrandis.uk.to < $SCRIPT_DIR/on_server/ownership.sh
     else
         echo "local build - not publishing to server"
     fi
