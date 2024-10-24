@@ -1,0 +1,26 @@
+---
+regenerate: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Index of made by Tom Brandis">
+
+    <title>Presentations</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+</head>
+<body>
+    <h1>index of presentations</h1>
+    <ul>
+        {% for presentation in site.static_files %}
+        {% if presentation.path contains "presentation" %}
+          <li>
+            <a href="{{ presentation.path }}">{{ presentation.name | split: "." | first }} (pdf)</a>
+          </li>
+        {%endif%}
+        {% endfor %}
+    </ul>
+</body>
+</html>
