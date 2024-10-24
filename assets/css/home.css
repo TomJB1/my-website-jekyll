@@ -25,6 +25,7 @@
         font-size: 19px;
         padding: 10px;
         padding-bottom: 50px;
+        overflow: auto;
     }
 }
 
