@@ -5,7 +5,7 @@ tags:
   - opinion_bubbles
 skills: 
 layout: default
-edited_date: 
+edited_date: 2024-11-03
 title: Shrinking bubbles
 ---
 People exist in bubbles of opinion. What do I mean by that? 
@@ -30,6 +30,6 @@ I think this is because of the lack of choice that people feel in being involved
 
 But is this bad? I think most people would agree that [not all opinions are of equal validity](https://pluralistic.net/2024/09/19/just-stop-putting-that-up-your-ass/) or should be listened to. Nazis and sexists aren't worth listening to. Neither are anti-vaccine conspiracy theorists. 
 
- The problem is that we will never agree in who we should listen too. I find it obvious that "pro-life" anti-abortion activists fall into the don't-listen-to group but ask [over a third of Americans](https://www.pewresearch.org/religion/fact-sheet/public-opinion-on-abortion/) and they'll disagree with me. Maybe you even disagree with me.
+ The problem is that we will never agree on who we should listen too. I find it obvious that "pro-life" anti-abortion activists fall into the don't-listen-to group but ask [over a third of Americans](https://www.pewresearch.org/religion/fact-sheet/public-opinion-on-abortion/) and they'll disagree with me. Maybe you even disagree with me.
 
 I don't have a solution, not yet anyway. I'm working on it though so look out for a part 2.
