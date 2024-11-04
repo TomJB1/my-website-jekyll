@@ -27,6 +27,10 @@
         padding-bottom: 50px;
         overflow: auto;
     }
+    a:visited
+    {
+        color: #390c63;
+    }
 }
 
 .rss-feed {
