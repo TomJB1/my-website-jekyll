@@ -1,0 +1,30 @@
+body {font-family:'Bahnschrift SemiLight';font-size:1.0rem;max-width:800px;margin-left:auto;margin-right:auto}
+a:link {color:#000080;text-decoration:underline}
+a:visited {color:#800000;text-decoration:underline}
+a.Internet20link:link {color:#000080;text-decoration:underline}
+a.Internet20link:visited {color:#800000;text-decoration:underline}
+p.Contents1 {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-indent:0;font-family:'Bahnschrift SemiLight';font-size:1.0rem}
+p.Firstlineindent {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.9448819rem;border:none;padding:0;text-indent:1.1787403rem;font-size:1.0rem}
+p.Caption {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.70866144rem;border:none;padding:0;font-family:'Bahnschrift SemiLight';font-style:italic;font-size:1.0rem}
+p.Standard {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;font-size:1.0rem}
+p.Textbody {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.9448819rem;border:none;padding:0;font-size:1.0rem}
+p.Title {margin-left:0;margin-right:0;margin-top:0.99921256rem;margin-bottom:0.5007874rem;border:none;padding:0;text-align:center;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:2.3333335rem}
+p.Bibliography1 {margin-left:3.0rem;margin-right:0;margin-top:0;margin-bottom:0.9448819rem;border:none;padding:0;text-indent:-3.0rem;font-family:'Bahnschrift SemiLight';font-size:1.0rem}
+p.Contents2 {margin-left:1.1787403rem;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-indent:0;font-family:'Bahnschrift SemiLight';font-size:1.0rem}
+h1 {margin-left:0;margin-right:0;margin-top:0.99921256rem;margin-bottom:0.5007874rem;border:none;padding:0;font-family:'Bahnschrift SemiLight',sans-serif;font-style:normal;font-weight:bold;font-size:1.5rem;text-decoration:underline;clear:left}
+h2 {margin-left:0;margin-right:0;margin-top:0.83385825rem;margin-bottom:0.5007874rem;border:none;padding:0;font-family:'Bahnschrift SemiLight',sans-serif;font-style:normal;font-weight:normal;font-size:1.0833334rem;text-decoration:underline;clear:left}
+.frameGraphics {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;background-color:transparent;font-size:1.0rem}
+.frameGraphics p {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;font-size:1.0rem}
+img {
+  max-width: 100%;
+  max-height: 500px;
+}
+.center {text-align: center;}
+th, td {
+    margin: 0px;
+    border: 1px solid black;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+}
