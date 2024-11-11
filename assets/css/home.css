@@ -36,3 +36,19 @@
 .rss-feed {
     display: none;
 }
+
+#music 
+{
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    padding-left: 20px;
+
+    audio
+    {
+        height: 20px;
+        bottom: -3px;
+        position: relative;
+        margin-right: 3px;
+    }
+}

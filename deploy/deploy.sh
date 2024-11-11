@@ -30,6 +30,11 @@ else
 
     if [ -z "$maxify" ]; then
         npx lightningcss --minify $JEKYLL_DIR/_site/assets/css/*.css -d $JEKYLL_DIR/_site/assets/css/
+        for FILE in $JEKYLL_DIR/_site/assets/music/*.mp3; do
+            cp "$FILE" "$FILE.big"
+            ffmpeg -y -i "$FILE.big" -b:a 96k -map a "$FILE"
+            rm "$FILE.big"
+        done
     fi
 
     if [ -n "$clean" ] && [ -z "$local" ]; then
