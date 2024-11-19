@@ -1,6 +1,4 @@
 body {
-    background-image: linear-gradient(#ff00005c 2px, transparent 1px);
-    background-size: 100% 2cm;
     margin: 0px;
 }
 
@@ -8,7 +6,6 @@ body {
 #contact-info
 {
     font-family: "Lucida Sans Typewriter", "Times New Roman", serif;
-    background-color: #b20000;
     margin-top: 0px;
     text-align: center;
     display: grid;
@@ -20,8 +17,6 @@ body {
         padding-top: 40px;
         font-size: 70px;
         color: #180101;
-        background-color: #FF2828;
-        box-shadow: 0 50px 110px 140px #FF2626;
         width: fit-content;
         letter-spacing: 0.444em;
         font-weight: 400;
@@ -37,7 +32,6 @@ body {
 
     a {
         font-size: 24px;
-        background-color: #FF2828;
     }
 
     a:hover{

@@ -1,15 +1,14 @@
 #bio p{
-    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 30px;
 }
 
 .selector-label{
     border-radius: 3px;
     margin: 5px;
-    background-color: rgba(255, 255, 255, 0.727);
-    color: black;
     border: 1px black solid;
     padding: 5px;
-    font-size: 14px;
     font-family: sans-serif;
     cursor: pointer;
     display:inline-block;
@@ -27,8 +26,7 @@
 
 label:has(> input:checked)
 {
-    background-color: black;
-    color: white;
+    background-color: var(--highlight-background-light);
     box-shadow: none;
 }
 
@@ -41,20 +39,12 @@ label:has(> input:checked)
 
 #things
 {
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: stretch;
-    align-content: start;
     min-height: 100vh;
 
     & .thing
     {
-        background-image: linear-gradient(#ccc 1px, transparent 1px);
-        background-size: 100% 30px;
         margin-top: 10px;
         border: solid black .1px;
-        background-color: rgb(255, 244, 223);
-        height: fit-content;
         *{
             margin: 10px;
         }
@@ -67,6 +57,11 @@ label:has(> input:checked)
         p{
             margin-top: 10px;
             font-family: "Lucida Sans Typewriter", "Times New Roman", serif;
+        }
+
+        &:focus-within, &:hover
+        {
+            background-color: var(--highlight-background-light);
         }
     }
 
