@@ -33,19 +33,19 @@ else
     fi
 
     if [ -n "$clean" ] && [ -z "$local" ]; then
-        ssh root@tombrandis.uk.to < $SCRIPT_DIR/on_server/delete_folder.sh
+        ssh root@tombrandis.uk < $SCRIPT_DIR/on_server/delete_folder.sh
     fi
 
     if [ -z "$local" ]; then
         if [[ "$OSTYPE" == "msys" ]]; then
             export MSYS_NO_PATHCONV=1
-            rsync -r -v -e "/usr/bin/ssh -o UserKnownHostsFile=~/.ssh/known_hosts" /cygdrive/$JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+            rsync -r -v -e "/usr/bin/ssh -o UserKnownHostsFile=~/.ssh/known_hosts" /cygdrive/$JEKYLL_DIR/_site/ root@tombrandis.uk:/var/www/my-website-jekyll-built
             unset MSYS_NO_PATHCONV 
         else
-            rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk.to:/var/www/my-website-jekyll-built
+            rsync -r -v $JEKYLL_DIR/_site/ root@tombrandis.uk:/var/www/my-website-jekyll-built
         fi
 
-        ssh root@tombrandis.uk.to < $SCRIPT_DIR/on_server/ownership.sh
+        ssh root@tombrandis.uk < $SCRIPT_DIR/on_server/ownership.sh
     else
         echo "local build - not publishing to server"
     fi
