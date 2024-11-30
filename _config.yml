@@ -1,4 +1,4 @@
-url: "https://tombrandis.uk.to" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tombrandis.uk" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Tom Brandis" # the name of your site, e.g. ACME Corp.
 permalink: none
