@@ -30,8 +30,16 @@ layout: compress
         <h2>next post in series</h2>
         <a href="{{post.url}}">{{post.title}}</a>
       {% endif %}
-    
     {%endfor%}
+
+    {% if page.previous_in_series != nil %}
+      {% for post in site.posts %}
+        {% if page.previous_in_series == post.title %}
+          <h2>previous post in series</h2>
+          <a href="{{post.url}}">{{post.title}}</a>
+        {% endif %}
+      {%endfor%}
+    {%endif%}
 
     {% assign has_heading = false %}
     {% for post in site.posts %}
