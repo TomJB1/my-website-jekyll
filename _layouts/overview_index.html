@@ -1,0 +1,22 @@
+---
+regenerate: true
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Index of {{page.title}} by Tom Brandis">
+
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+</head>
+<body>
+    <a href="..">go up ^</a>
+    <h1>index of {{page.title}} {% if page.rss == true %} (<a href="feed.xml">rss</a>) {%endif%}</h1>
+    <ul>
+        {{content}}
+    </ul>
+</body>
+</html>

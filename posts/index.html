@@ -1,25 +1,11 @@
 ---
 regenerate: true
-layout: compress
+layout: overview_index
+title: posts
+rss: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Index of posts by Tom Brandis">
-
-    <title>Posts</title>
-    <link rel="stylesheet" href="/assets/css/reset.css">
-</head>
-<body>
-    <h1>index of posts (<a href="/posts/feed.xml">rss</a>)</h1>
-    <ul>
-        {% for post in site.posts %}
-          <li>
-            {{post.date | date: "%d/%m/%y" }} - <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-</body>
-</html>
+{% for post in site.posts %}
+  <li>
+    {{post.date | date: "%d/%m/%y" }} - <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}

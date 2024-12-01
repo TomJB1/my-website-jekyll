@@ -1,0 +1,12 @@
+---
+regenerate: true
+layout: overview_index
+title: solutions 2024
+---
+{% for code in site.static_files %}
+{% if code.path contains "advent-of-code/2024" -%}
+<li>
+    <a href="{{ code.path }}">{{ code.name }}</a>
+</li>
+{%endif%}
+{% endfor %}
