@@ -6,7 +6,8 @@ title: solutions 2024
 {% for code in site.static_files %}
 {% if code.path contains "advent-of-code/2024" -%}
 <li>
-    <a href="{{ code.path }}">{{ code.name }}</a>
+    <a href="{{ code.path }}">{{ code.name }}</a> | 
+    <a href="https://github.com/TomJB1/my-website-jekyll/blob/main/{{code.path}}?plain=1">github</a>
 </li>
 {%endif%}
 {% endfor %}
