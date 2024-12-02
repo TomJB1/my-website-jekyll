@@ -15,7 +15,8 @@ previous_in_series:
 ---
 This rant is dedicated to people on the butterfly-logo place.
 
-You have free will to use anything however you want. I can't stop you and I don't think I should be able to do so. Also I consume your [art](/posts/Is-content-destroying-art.html) for free and offer only criticism. But I still have opinions. Quickly before we start - by blog I mean "place to write stuff" and by microblog I mean "place to write stuff with a character limit". So here goes.
+You have free will to use anything however you want. I can't stop you and I don't think I should be able to do so. Also I consume your [art](/posts/Is-content-destroying-art.html) for free and offer only criticism. But I still have opinions. Quickly before we start - by blog I mean "place to write stuff" and by microblog I mean "plac
+e to write stuff with a character limit". So here goes.
 
 Don't use microblogging platforms for big-blogging. Use a *blog*. When blogs are split up to fit on a microblogging platform they are awkward and annoying to read. Don't do it.
 
