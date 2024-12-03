@@ -51,3 +51,9 @@ a {
 #other-posts a {
     display: block;
 }
+
+
+img
+{
+    max-width: 100%;
+}
