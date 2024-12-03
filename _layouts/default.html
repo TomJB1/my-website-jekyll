@@ -12,6 +12,20 @@ layout: compress
     <link rel="stylesheet" href="{{ "/assets/css/posts.css" | relative_url }}">
   </head>
   <body>
+    {% if page.tags contains 'rant'%}
+    <style>
+      /*this is here because this post is a rant. Don't listen to me when I rant*/
+      body
+      {
+        background-color: #ff2828;
+      }
+
+      #publish-date
+      {
+        color: black;
+      }
+    </style>
+    {%endif%}
     <h1>{{page.title}}</h1>
     <p id="publish-date">
     published: {{page.date | date: "%-d %B %Y" }}
