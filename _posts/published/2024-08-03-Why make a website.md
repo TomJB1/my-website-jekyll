@@ -1,6 +1,7 @@
 ---
-tags: 
-skills: []
+tags:
+  - this_website
+skills: 
 layout: default
 edited_date: 
 title: Why make a website?
