@@ -15,3 +15,6 @@ collections:
 
 compress_html:
   blanklines: true
+
+plugins:
+  - jekyll-wikirefs

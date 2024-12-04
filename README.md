@@ -12,6 +12,7 @@ Remember to push posts!
 2. Install:
 * bash (git bash on Windows)
 * [jekyll](https://jekyllrb.com/docs/installation/)
+* [wikilinks gem](https://github.com/wikibonsai/jekyll-wikirefs) (gem install jekyll-wikirefs)
 * node and npm:
     * [lightningcss-cli](https://lightningcss.dev/docs.html)
 * ssh
