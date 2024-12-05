@@ -1,0 +1,32 @@
+---
+regenerate: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posts by tag</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+</head>
+<body>
+    <a href="..">go up ^</a>
+    <h1>posts sorted by tag | <a href="/posts/">chronological</a></h1>
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
+        {% if tag[1].size > 1 %}
+            <a href="#{{tag[0]}}">#{{tag[0]}}</a>
+        {%endif%}
+    {%endfor%}
+    {% for tag in sorted_tags %}
+        {% if tag[1].size > 1 %}
+        <h2 id="{{tag[0]}}">{{tag[0]}}</h2>
+        <ul>
+            {% for post in tag[1] %}
+            <li><a href="{{post.url}}">{{post.title | replace: "_", " "}}</a></li>
+            {%endfor%}
+        </ul>
+        {%endif%}
+    {%endfor%}
+</body>
+</html>
