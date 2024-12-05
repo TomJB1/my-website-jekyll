@@ -19,3 +19,6 @@ Remember to push posts!
 * rsync
 3. Only on Windows:
 You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/WindowsApps/jekyll` to the path to the path of your ruby executable
+
+# server
+* redirect /profile.html to /about-me.html
