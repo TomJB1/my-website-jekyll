@@ -70,5 +70,10 @@ label:has(> input:checked)
 #buttons{
     & img {
         image-rendering: pixelated;
+        transition: transform .03s;
+        &:hover
+        {
+            transform: scale(1.5);
+        }
     }
 }
