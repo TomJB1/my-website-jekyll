@@ -59,7 +59,7 @@ layout: compress
     {% for post in site.posts %}
       {% for tag in page.tags %}
 
-        {% if post.tags contains tag and post.title!=page.title and post.previous_in_series!=page.title%}
+        {% if post.tags contains tag and post.title!=page.title and post.previous_in_series!=page.title and page.previous_in_series!=post.title %}
           {%  if has_heading != true %}
             <h2>related posts</h2>
             {% assign has_heading = true %}
