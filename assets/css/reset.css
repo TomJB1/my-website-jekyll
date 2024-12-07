@@ -1,3 +1,19 @@
+@font-face {
+	font-family: 'Red Hat Mono';
+	src: 
+        url('/assets/fonts/red-hat-mono/RedHatMono-Regular.woff2') format('woff2');;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Red Hat Mono';
+	src: 
+        url('/assets/fonts/red-hat-mono/RedHatMono-Medium.woff2') format('woff2');;
+	font-weight: bold;
+	font-style: normal;
+}
+
 :root
 {
     --highlight-flare: #ff2828;
@@ -10,7 +26,7 @@
 
 
 body{
-    font-family: "Lucida Sans Typewriter", "Times New Roman", serif;
+    font-family: "Red Hat Mono", "Lucida Sans Typewriter", "Times New Roman", serif;
     scroll-behavior: smooth;
 
 a{
