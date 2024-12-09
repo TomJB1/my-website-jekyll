@@ -9,7 +9,6 @@ edited_date: 2024-12-09
 title: How to not google it anymore
 previous_in_series: Don't google it
 ---
-#TODO search my site and 
 Over time, I have built up a collection of non-google search engines that I can go to for various different types of searches.
 
 In Firefox I have a keyword set (through a bookmark) for each of these. This means that I can prepend the keyword to any search to use that search engine. For example if I want to search for "art" using the marginalia search engine I can enter "!marg art".
