@@ -22,3 +22,13 @@ You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/Windo
 
 # server
 * redirect /profile.html to /about-me.html
+
+# what I want to add in the future
+* albums page
+* thank you page (to replace humans.txt that I don't really use)
+* comments
+* RSS subscription page
+* links I like
+* search engine!
+* webmentions (maybe, don't really know much about it)
+
