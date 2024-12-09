@@ -12,7 +12,7 @@ regenerate: true
 <body>
     <a href="..">go up ^</a>
     <h1>posts sorted by tag | <a href="/posts/">chronological</a></h1>
-    {% assign sorted_tags = site.tags | sort %}
+    {% assign sorted_tags = site.tags | sort_natural %}
     {% for tag in sorted_tags %}
         {% if tag[1].size > 1 %}
             <a href="#{{tag[0]}}">#{{tag[0]}}</a>
@@ -20,10 +20,10 @@ regenerate: true
     {%endfor%}
     {% for tag in sorted_tags %}
         {% if tag[1].size > 1 %}
-        <h2 id="{{tag[0]}}">{{tag[0]}}</h2>
+        <h2 id="{{tag[0]}}">{{tag[0] | replace: "_", " "}}</h2>
         <ul>
             {% for post in tag[1] %}
-            <li><a href="{{post.url}}">{{post.title | replace: "_", " "}}</a></li>
+            <li><a href="{{post.url}}">{{post.title}}</a></li>
             {%endfor%}
         </ul>
         {%endif%}
