@@ -5,10 +5,11 @@ tags:
   - search_engine
 skills: 
 layout: default
-edited_date: 
+edited_date: 2024-12-09
 title: How to not google it anymore
 previous_in_series: Don't google it
 ---
+#TODO search my site and 
 Over time, I have built up a collection of non-google search engines that I can go to for various different types of searches.
 
 In Firefox I have a keyword set (through a bookmark) for each of these. This means that I can prepend the keyword to any search to use that search engine. For example if I want to search for "art" using the marginalia search engine I can enter "!marg art".
@@ -21,6 +22,8 @@ In Firefox I have a keyword set (through a bookmark) for each of these. This mea
 If you are looking for a small or independent website.
 - [marginalia](https://search.marginalia.nu/) - really shines when searching about a topic.
 - [indieseek.xyz](https://indieseek.xyz/links/search.php) - a very curated search engine. This makes finding anything specific (even specific topics) hard but all the links are high-quality. A good starting point for a search.
+- [wiby](https://wiby.org/) - a lot of very old fashioned results which can be fun to see.
+- [Search my site](https://searchmysite.net/) - Mixture of results that often contains very interesting blogs and personal websites.
 
 ## Wikis
 - [Wikipedia](https://en.wikipedia.org) - yes it's not really a search engine but still an extremely useful source of information.
@@ -45,3 +48,6 @@ I also recommend finding the wikis that are relevant to you - there are ones for
 I'll continue to update this if I find more - if you know of any that you think I might like I would love you to email me at [tomjbrandis [at] gmail [dot] com](mailto:tomjbrandis@gmail.com).
 
 I also might try and make my own search engine at some point for fun. It's just an idea at this point and it probably wouldn't be able to compete with any of these but we'll see what happens with that.
+
+## Changes
+09/12/24 - add "wibi" and "search my site"
