@@ -68,6 +68,12 @@ label:has(> input:checked)
 }
 
 #buttons{
+    margin-bottom: 50px;
+
+    & a {
+        text-decoration: none;
+    }
+
     & img {
         image-rendering: pixelated;
         transition: transform .03s;
