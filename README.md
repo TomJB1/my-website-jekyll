@@ -30,4 +30,5 @@ You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/Windo
 * links I like
 * search engine!
 * webmentions (maybe, don't really know much about it)
+* recipe book
 
