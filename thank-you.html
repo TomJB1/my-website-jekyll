@@ -1,0 +1,36 @@
+---
+people:
+    -
+        Name: Liakos
+        Where: SO
+        Link: https://meta.stackoverflow.com/users/2718972/liakos
+        For: rsync on windows
+    -
+        Name: John Vincent 
+        Where: johnvincent.io
+        Link: https://johnvincent.io
+        For: RSS in liquid
+    - 
+        Name: Independent Software
+        Where: independent-software.com
+        Link: https://independent-software.com
+        For: sitemap in liquid
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you page - Tom Brandis</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+</head>
+<body>
+    <h1>Thank you!</h1>
+    <div>
+        {% for person in page.people %}
+        <h2>{{person.Name}} (<a href="{{person.Link}}">{{person.Where}}</a>)</h2>
+        <p>for {{person.For}}</p>
+        {%endfor%}
+    </div>
+</body>
+</html>

@@ -25,7 +25,6 @@ You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/Windo
 
 # what I want to add in the future
 * albums page
-* thank you page (to replace humans.txt that I don't really use)
 * comments
 * RSS subscription page
 * links I like
