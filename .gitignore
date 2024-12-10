@@ -7,3 +7,4 @@ _site/
 vendor/
 _posts/.obsidian/*
 !_posts/.obsidian/community-plugins.json
+/_music/.obsidian

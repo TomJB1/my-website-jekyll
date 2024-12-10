@@ -19,10 +19,9 @@ h1
     color: gray;
 }
 
-#post-content
+main
 {
     margin: auto;
-    margin-bottom: 300px;
     width: 80%;
     max-width: 35rem;
     text-align: left;
@@ -47,12 +46,16 @@ a {
     }
 }
 
-#other-posts a {
-    display: block;
-}
+#other-posts {
+    margin-top: 300px;
 
+    & a {
+        display: block;
+    }
+}
 
 img
 {
-    max-width: 100%;
+    min-width: max(min(280px, 100%), 200px);
+    width: 30%;
 }

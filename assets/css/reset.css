@@ -37,6 +37,11 @@ a{
 }
 }
 
+h1
+{
+    text-wrap: balance;
+}
+
 a:link
 {
     color: var(--text-main);

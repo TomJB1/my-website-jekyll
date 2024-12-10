@@ -1,0 +1,30 @@
+---
+regenerate: true
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Music I like - Tom Brandis">
+
+    <title>music</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/music.css">
+</head>
+<body>
+    <a href="..">go up ^</a>
+    <h1>music I like</h1>
+    <main>
+    {% assign shuffled_music = site.music  %}
+    {% for page in shuffled_music %}
+    <div class="album">
+        <h2>{{page.title}}</h2>
+        <p>{{page.artist | join: ", "}}</p>
+        <a href="{{page.url}}"><img src="/assets/music_art/{{page.artist}}/{{page.title | slugify}}.jpg"></a>
+    </div>
+    {% endfor %}
+  </main>
+</body>
+</html>

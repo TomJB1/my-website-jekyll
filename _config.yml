@@ -2,7 +2,7 @@ url: "https://tombrandis.uk" # the base hostname & protocol for your site, e.g. 
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Tom Brandis" # the name of your site, e.g. ACME Corp.
 permalink: none
-exclude: [deploy]
+exclude: [deploy, "_music/templates"]
 
 collections:
   posts:
@@ -12,6 +12,9 @@ collections:
     output: true
   presentations:
     output: true
+  music:
+    output: true
+    permalink: /:collection/:title.html
 
 compress_html:
   blanklines: true
