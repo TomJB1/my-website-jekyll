@@ -12,4 +12,4 @@ artists_website: https://greenday.com
 ---
 Overall good album. There are a couple of songs that just don't go well with the others, particularly *Look Ma, No Brains*, *One Eyed Bastard* and *Dilemma*. It's not that I don't like them but I usually skip them when playing the album. I think they should have been singles.
 
-I particularly like the end of this album from *Suzie Chapstick*.
+I particularly like the end of the album, from *Suzie Chapstick* onward.
