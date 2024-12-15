@@ -2,6 +2,12 @@ img
 {
     width: 20vw;
     min-width: 250px;
+    transition: box-shadow .2s ease-in-out;
+    
+    &:hover
+    {
+        box-shadow: var(--highlight-flare) 0px 0px 0px 15px;
+    }
 }
 
 .album {
