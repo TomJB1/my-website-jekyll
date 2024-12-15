@@ -5,7 +5,7 @@ tags:
   - search_engine
 skills: 
 layout: default
-edited_date: 2024-12-09
+edited_date: 2024-12-11
 title: How to not google it anymore
 previous_in_series: Don't google it
 ---
@@ -26,6 +26,7 @@ If you are looking for a small or independent website.
 
 ## Wikis
 - [Wikipedia](https://en.wikipedia.org) - yes it's not really a search engine but still an extremely useful source of information.
+- [HandWiki](https://handwiki.org) - similar to Wikipedia but it is just written by researchers (and people who have paid £10). They have a less strict article acceptance polity (it's easier to add pages) so there are more available on some subjects. Wikipedia is copied to it so your effectively searching both.
 I also recommend finding the wikis that are relevant to you - there are ones for nearly every topic and hobby! Here are some examples of Wikis for games that I play:
 - [Dwarf Fortress Wiki](https://dwarffortresswiki.org/)
 - [THE FINALS Community Wiki](https://www.thefinals.wiki/wiki/Main_Page) 
@@ -50,3 +51,4 @@ I also might try and make my own search engine at some point for fun. It's just 
 
 ## Changes
 09/12/24 - add "wibi" and "search my site"
+11/12/24 - add HandWiki
