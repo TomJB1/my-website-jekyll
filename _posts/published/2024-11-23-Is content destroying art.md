@@ -5,7 +5,8 @@ tags:
   - social_media
   - creators
   - essay
-skills: 
+skills:
+  - report-writing
 layout: default
 edited_date: 
 title: Is content destroying art?
