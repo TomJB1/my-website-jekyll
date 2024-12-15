@@ -7,6 +7,7 @@ artist:
 layout: music
 spotify: https://open.spotify.com/album/1AHZd3C3S8m8fFrhFxyk79?highlight=spotify:track:0RT1qESYHlNcUJI0Yo5Hzl
 yt_music: https://music.youtube.com/playlist?list=OLAK5uy_mIFn-YhTNCRYPqK2czZKEakLy5Gs6G89Q
+artists_website: https://greenday.com
 ---
 Easily one of the best Green Day albums, it feels really cohesive as a album despite having a range of different songs.
 

@@ -18,6 +18,7 @@ layout: compress
     <img src="/assets/music_art/{{page.artist}}/{{page.title | slugify}}.jpg">
     <main>{{content}}</main>
     <h2>listen to it!</h2>
+    {% if page.artists_website %}<a href="{{page.artists_website}}"><p>{{page.artist}} website</p></a>{%endif%}
     {% if page.bandcamp %}<a href="{{page.bandcamp}}"><p>bandcamp</p></a>{%endif%}
     {% if page.yt_music %}<a href="{{page.yt_music}}"><p>youtube music</p></a>{%endif%}
     {% if page.spotify %}<a href="{{page.spotify}}"><p>spotify</p></a>{%endif%}
