@@ -35,7 +35,7 @@ else
 
     if [ -n "$clean" ] && [ -z "$local" ]; then
         if [ -n "$server_deploy" ]; then
-            $SCRIPT_DIR/on_server/delete_folder.sh
+            bash $SCRIPT_DIR/on_server/delete_folder.sh
         else
             ssh root@tombrandis.uk < $SCRIPT_DIR/on_server/delete_folder.sh
         fi
@@ -55,7 +55,7 @@ else
         fi
 
         if [ -n "$server_deploy" ]; then
-            $SCRIPT_DIR/on_server/ownership.sh
+            bash $SCRIPT_DIR/on_server/ownership.sh
         else
             ssh root@tombrandis.uk < $SCRIPT_DIR/on_server/ownership.sh
         fi
