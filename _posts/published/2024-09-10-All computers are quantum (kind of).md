@@ -2,6 +2,7 @@
 tags:
   - quantum_computers
   - tech
+  - physics
 skills: 
 layout: default
 edited_date: 
