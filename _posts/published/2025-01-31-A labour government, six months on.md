@@ -3,6 +3,7 @@ tags:
   - Labour_party
   - UK
   - government
+  - politics
 skills: 
 layout: default
 edited_date: 
