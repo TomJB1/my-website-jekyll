@@ -1,0 +1,43 @@
+body {
+  max-width:800px;
+  margin:auto;
+  font-family:Bahnschrift SemiLight,"sans-serif";
+  font-size: 1rem;
+}
+a:link {
+  color:navy;
+  text-decoration:underline
+}
+a:visited {
+  color:maroon;
+  text-decoration:underline
+}
+h1 {
+  font-size:3rem;
+}
+h2 {
+  font-size:2rem;
+  margin-top: 2rem;
+  margin-bottom: 0px;
+  text-decoration:underline
+}
+img {
+  max-width:100%;
+  max-height:500px
+}
+.center {
+  text-align:center
+}
+th,
+td {
+  border:1px solid #000;
+  margin:0;
+  padding:10px
+}
+table {
+  border-collapse:collapse
+}
+.code {
+  margin:0
+}
+
