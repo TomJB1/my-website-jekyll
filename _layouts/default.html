@@ -40,6 +40,8 @@ layout: compress
 
     <footer id="other-posts">
 
+    <p>Written by <a href="https://tombrandis.uk">Tom Brandis</a></p>
+
     {% for post in site.posts %}
       {% if post.previous_in_series == page.title %}
         <h2>next post in series</h2>
@@ -62,21 +64,24 @@ layout: compress
 
         {% if post.tags contains tag and post.title!=page.title and post.previous_in_series!=page.title and page.previous_in_series!=post.title %}
           {%  if has_heading != true %}
-            <h2>related posts</h2>
+            <h2>related posts</h2><ul>
             {% assign has_heading = true %}
           {%endif%}
-          <a href="{{post.url}}">{{post.title}}</a>
+          <li><a href="{{post.url}}">{{post.title}}</a></li>
           {%break%}
         {%endif%}
       
       {%endfor%}
     {%endfor%}
+    {% if has_heading %}
+    </ul>
+    {%endif%}
 
     <h2>reply</h2>
-    <a href="mailto:tomjbrandis@gmail.com?subject=Reply to: {{page.title}}">mail me</a>
+    <ul><li><a href="mailto:tomjbrandis@gmail.com?subject=Reply to: {{page.title}}">mail me</a></li></ul>
     
     <h2>view source</h2>
-    <a href="https://github.com/TomJB1/my-website-jekyll/blob/main/_posts/published/{{page.name}}?plain=1">github</a>
+    <ul><li><a href="https://github.com/TomJB1/my-website-jekyll/blob/main/_posts/published/{{page.name}}?plain=1">github</a></li></ul>
 
     </footer>
   </body>
