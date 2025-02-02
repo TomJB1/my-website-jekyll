@@ -45,18 +45,15 @@ label:has(> input:checked)
     {
         margin-top: 10px;
         border: solid black .1px;
-        *{
+        list-style-type: none;
+        font-size: 1.4rem;
+        p {
             margin: 10px;
         }
-        a{
-            margin-top: 0px;
-        }
-        h2{
-            margin-bottom: 0px;
-        }
-        p{
-            margin-top: 10px;
-            font-family: "Lucida Sans Typewriter", "Times New Roman", serif;
+
+        .thing-skills {
+            color: rgb(40, 40, 40);
+            font-size: small;
         }
 
         &:focus-within, &:hover

@@ -4,54 +4,78 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tom Brandis website homepage">
 
     <title>Tom Brandis</title>
-    <link rel="stylesheet" href="/assets/css/contact-info.css">
+    <link rel="stylesheet" href="/assets/css/home-header.css">
     <link rel="stylesheet" href="/assets/css/home.css">
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="me" href="https://mastodonapp.uk/@tombrandis">
 </head>
+
 <body>
-    {% include contact-info-header.html %}
-    <div id="pages" class="highlight-flair">
-        <a href="/about-me.html" class="big">about me</a>
-        <a href="/posts">posts</a>
-        <a href="{{ site.posts[0].url }}">latest post: {{ site.posts[0].title }}</a>
-        <a href="/reports">reports</a>
-        <a href="/presentations">presentations</a>
-        <a href="/advent-of-code">my Advent of Code solutions</a>
-        <a href="/music">music I like</a>
-        <a href="/thank-you.html">thank you's</a>
-    </div>
+    <header>
+        <h1>Tom Brandis</h1>
+        <p>Hiii, welcome to my website. Maybe you want to <a href="mailto:tomjbrandis@gmail.com">send me mail</a> or visit <a href="https://github.com/TomJB1" target="_blank">my github</a>. 
+        Alternatively have a look around, maybe I've written something interesting.</p>
+    </header>
+    <ul id="pages" class="highlight-flair">
+        <li><a href="/about-me.html" class="big">about me</a></li>
+        <li><a href="/posts">posts</a></li>
+        <li>latest post: <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></li>
+        <li><a href="/reports">reports</a></li>
+        <li><a href="/presentations">presentations</a></li>
+        <li><a href="/advent-of-code">my Advent of Code solutions</a></li>
+        <li><a href="/music">music I like</a></li>
+        <li><a href="/thank-you.html">thank you's</a></li>
+    </ul>
     <div id="webrings">
         <h2>Webrings</h2>
         <p>have a good onward journey</p>
-        <div>
-            <a href="https://250kb.club/"><img src="/assets/images/250KB-Club-badge.png" alt="badge: proud member of the 250KB Club"></a>
-        </div>
-        <div>
-            <a href="https://kalechips.net/responsive/index">Responsive Web Directory</a>
-        </div>
-        <div id='bucket-webring'>
-            <a href="https://webring.bucketfish.me/redirect.html?to=prev&name=Tom Brandis" rel="nofollow">← prev</a>
-            <a href="https://webring.bucketfish.me" rel="nofollow">bucket webring</a>
-            <a style="font-size:60%" href="https://webring.bucketfish.me/redirect.html?to=random&name=Tom Brandis" rel="nofollow">(random)</a>
-            <a href="https://webring.bucketfish.me/redirect.html?to=next&name=Tom Brandis" rel="nofollow">next →</a>
-        </div>
-        <div id="noaiwebring">
-            <a href="https://baccyflap.com/noai/?prv&s=tom" target="_top">← prev</a>&emsp;
-            <a href="https://baccyflap.com/noai" target="_blank">No AI Webring</a>
-            <a style="font-size:60%" href="https://baccyflap.com/noai/?rnd" target="_top">(random)</a>&emsp;
-            <a href="https://baccyflap.com/noai/?nxt&s=tom" target="_top">next →</a>
-        </div>
-        <div id="theforest">
-            <a href="https://theforest.link/">the forest</a>
-        </div>
+        <ul>
+            <div>
+                <a href="https://250kb.club/"><img src="/assets/images/250KB-Club-badge.png"
+                        alt="badge: proud member of the 250KB Club"></a>
+            </div>
+            </li>
+            <li>
+            <li>
+                <div>
+                    <a href="https://kalechips.net/responsive/index">Responsive Web Directory</a>
+                </div>
+            </li>
+            <li>
+                <div id='bucket-webring'>
+                    <a href="https://webring.bucketfish.me/redirect.html?to=prev&name=Tom Brandis" rel="nofollow">←
+                        prev</a>
+                    <a href="https://webring.bucketfish.me" rel="nofollow">bucket webring</a>
+                    <a style="font-size:60%"
+                        href="https://webring.bucketfish.me/redirect.html?to=random&name=Tom Brandis"
+                        rel="nofollow">(random)</a>
+                    <a href="https://webring.bucketfish.me/redirect.html?to=next&name=Tom Brandis" rel="nofollow">next
+                        →</a>
+                </div>
+            </li>
+            <li>
+                <div id="noaiwebring">
+                    <a href="https://baccyflap.com/noai/?prv&s=tom" target="_top">← prev</a>&emsp;
+                    <a href="https://baccyflap.com/noai" target="_blank">No AI Webring</a>
+                    <a style="font-size:60%" href="https://baccyflap.com/noai/?rnd" target="_top">(random)</a>&emsp;
+                    <a href="https://baccyflap.com/noai/?nxt&s=tom" target="_top">next →</a>
+                </div>
+            </li>
+            <li>
+                <div id="theforest">
+                    <a href="https://theforest.link/">the forest</a>
+                </div>
+            </li>
+        </ul>
     </div>
     <a href="/posts/feed.xml" class="rss-feed"></a>
 </body>
+
 </html>

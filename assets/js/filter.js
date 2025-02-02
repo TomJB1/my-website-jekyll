@@ -3,6 +3,21 @@ selectors = document.getElementsByClassName("selector")
 skillSection = document.getElementById("select-skills")
 let skills = {}
 
+function create_button(skill_name) {
+    label = document.createElement("label")
+    label.innerText=skill_name+" "
+    label.classList.add("selector-label")
+
+    checkbox=document.createElement("input")
+    checkbox.type="radio"
+    checkbox.classList.add("selector")
+    checkbox.addEventListener("click", filter)
+    checkbox.dataset.tagNames=skill_name
+    label.append(checkbox)
+    skillSection.append(label)
+    return checkbox
+}
+
 function filter(e) {
     showAll();
     for (let selector of selectors){
@@ -37,22 +52,13 @@ function showTagged(skill){
 
 for (let thing of things) {
     for (let skill of thing.classList) {
-        if(skill!="thing"){
+        if(skill!="thing" && skill!="ALL"){
             skills[skill]=true
         }
     }
 }
 
+create_button("ALL").checked = true
 for (let skill of Object.keys(skills)) {
-    label = document.createElement("label")
-    label.innerText=skill+" "
-    label.classList.add("selector-label")
-
-    checkbox=document.createElement("input")
-    checkbox.type="checkbox"
-    checkbox.classList.add("selector")
-    checkbox.addEventListener("click", filter)
-    checkbox.dataset.tagNames=skill
-    label.append(checkbox)
-    skillSection.append(label)
+    create_button(skill)
 }

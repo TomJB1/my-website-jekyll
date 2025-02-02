@@ -70,12 +70,14 @@ Biography: Hi! I'm Tom. I do physics, computer science and maths at A level and 
 
     <title>Tom Brandis Profile</title>
     <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href={{"/assets/css/profile.css" | relative_url }}>
+    <link rel="stylesheet" href="/assets/css/profile.css">
     <script defer src="/assets/js/filter.js"></script>
-    <link rel="stylesheet" href="/assets/css/contact-info.css">
+    <link rel="stylesheet" href="/assets/css/home-header.css">
 </head>
 <body>
-    {% include contact-info-header.html %}
+    <header>
+        <h1><a href="https://tombrandis.uk">Tom Brandis</a></h1>
+    </header>
     <main>
     <div id="bio">
         <p class="highlight-flair">{{page.Biography}}</p>
@@ -83,10 +85,9 @@ Biography: Hi! I'm Tom. I do physics, computer science and maths at A level and 
 
     <div id="skills">
         <h2>Skills</h2>
-        <div id="select-skills">
-            
-        </div>
-        <div id="things" aria-live="assertive">
+        <form id="select-skills">
+        </form>
+        <ul id="things" aria-live="assertive">
             {% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil and post.skills.size != 0 " %}
             {% assign things = skillPosts | concat: site.reports | concat: site.data.skills %}
             {% for thing in things %}
@@ -97,18 +98,16 @@ Biography: Hi! I'm Tom. I do physics, computer science and maths at A level and 
             {% assign skills = thing.skills | split: " " %}
             {% endif %}
 
-            <div class="thing {{skills | join: " " }}">
-                <h2>{{thing.title}}</h2>
-                {% if thing.link != nil or thing.url != nil%}
-                    <a href="{{thing.link}}{{thing.url}}">link</a>
-                    {% if thing.pdf != nil %}
-                    | <a href="{{thing.pdf}}">pdf</a>
-                    {%endif%}
+            <li class="thing {{skills | join: " " }} ALL">
+                <p>{% if thing.link != nil or thing.url != nil%}<a href="{{thing.link}}{{thing.url}}">{{thing.title}}</a>{%else%}{{thing.title}}{%endif%}
+                {% if thing.pdf != nil %}
+                | <a href="{{thing.pdf}}">pdf</a>
                 {%endif%}
-                <p>{{skills | join: ", "}}</p>
-            </div>
+                </p>
+                <p class="thing-skills">({{skills | join: ", "}})</p>
+            </li>
             {% endfor %}
-        </div>
+        </ul>
         <div id="buttons">
             {% assign PixelButtons = page.PixelButtons | sample: page.PixelButtons.size %} {% comment %} Shuffle PixelButtons {% endcomment %}
             {% for button in PixelButtons %}
