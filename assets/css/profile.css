@@ -45,7 +45,6 @@ label:has(> input:checked)
     {
         margin-top: 10px;
         border: solid black .1px;
-        list-style-type: none;
         font-size: 1.4rem;
         p {
             margin: 10px;

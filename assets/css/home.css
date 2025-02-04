@@ -5,7 +5,6 @@
         text-align: center;
         margin: 15px;
         font-size: 30px;
-        list-style-type: none;
         &.big{
             font-size: 50px;
             margin: 50px;
@@ -18,9 +17,6 @@
     text-align: center;
     padding: 10px;
     margin-top: 100px;
-    ul {
-        list-style-type: none;
-    }
 
     h2{
         font-size: 24px;

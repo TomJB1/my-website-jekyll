@@ -87,7 +87,7 @@ Biography: Hi! I'm Tom. I do physics, computer science and maths at A level and 
         <h2>Skills</h2>
         <form id="select-skills">
         </form>
-        <ul id="things" aria-live="assertive">
+        <ul id="things" class="no-bullet" aria-live="assertive">
             {% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil and post.skills.size != 0 " %}
             {% assign things = skillPosts | concat: site.reports | concat: site.data.skills %}
             {% for thing in things %}

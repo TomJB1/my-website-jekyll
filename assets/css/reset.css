@@ -73,3 +73,11 @@ hr
 {
     border: 10px solid #FF2828;
 }
+
+ul.no-bullet, ol.no-bullet
+{
+    padding-left: none;
+    li {
+        list-style-type: none;
+    }
+}
