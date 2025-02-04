@@ -1,5 +1,5 @@
 #pages{
-    display: grid;
+    min-width: fit-content;
 
     li{
         text-align: center;
