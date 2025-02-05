@@ -5,11 +5,8 @@ body {
 
 header
 {
-    font-family: "Lucida Sans Typewriter", "Times New Roman", serif;
     margin-top: 0px;
     text-align: center;
-    display: grid;
-    justify-content: center;
     overflow-y:hidden;
     text-align: center;
 
