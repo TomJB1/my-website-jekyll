@@ -12,8 +12,8 @@ header
 
     h1{
         margin: auto;
-        padding-top: 40px;
-        font-size: 70px;
+        padding-top: 0.4em;
+        font-size: 4rem;
         color: #180101;
         width: fit-content;
         letter-spacing: 0.444em;
