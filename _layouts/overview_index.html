@@ -14,7 +14,7 @@ layout: compress
 </head>
 <body>
     <a href="..">go up ^</a>
-    <h1>index of {{page.title}} {% if page.tag_page %}| <a href="{{page.tag_page}}">tags</a>{%endif%} {% if page.rss == true %} (<a href="feed.xml">rss</a>) {%endif%}</h1>
+    <h1>index of {{page.title}} {% if page.tag_page %}| <a href="{{page.tag_page}}">tags</a>{%endif%} {% if page.rss == true %} (<a rel="alternate" type="application/rss+xml" href="/posts/feed.xml" title="Tom Brandis" href="feed.xml">rss</a>) {%endif%}</h1>
     <ul>
         {{content}}
     </ul>
