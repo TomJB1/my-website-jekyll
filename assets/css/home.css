@@ -1,8 +1,8 @@
 #pages{
-    min-width: fit-content;
+    width: fit-content;
+    margin: auto;
 
     li{
-        text-align: center;
         margin: 15px;
         font-size: 30px;
         &.big{
@@ -12,11 +12,16 @@
     }
 }
 
+main {
+    padding: 1.2rem 0;
+}
+
 #webrings
 {
-    text-align: center;
     padding: 10px;
     margin-top: 100px;
+    margin: auto;
+    width: fit-content;
 
     h2{
         font-size: 24px;

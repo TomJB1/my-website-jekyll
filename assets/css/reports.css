@@ -6,11 +6,11 @@ body {
 }
 a:link {
   color:navy;
-  text-decoration:underline
+  text-decoration:underline;
 }
 a:visited {
   color:maroon;
-  text-decoration:underline
+  text-decoration:underline;
 }
 h1 {
   font-size:3rem;
@@ -23,7 +23,7 @@ h2 {
 }
 img {
   max-width:100%;
-  max-height:500px
+  max-height:500px;
 }
 .center {
   text-align:center
@@ -32,12 +32,12 @@ th,
 td {
   border:1px solid #000;
   margin:0;
-  padding:10px
+  padding:10px;
 }
 table {
   border-collapse:collapse
 }
 .code {
-  margin:0
+  margin:0;
 }
 

@@ -71,13 +71,5 @@ hr
 
 .highlight-flair
 {
-    border: 10px solid #FF2828;
-}
-
-ul.no-bullet, ol.no-bullet
-{
-    padding-left: none;
-    li {
-        list-style-type: none;
-    }
+    border: 0.6rem solid #FF2828;
 }
