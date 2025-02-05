@@ -3,6 +3,7 @@ tags:
   - Google
   - tech
   - search_engine
+  - how_to
 skills: 
 layout: default
 edited_date: 2024-12-11
