@@ -1,6 +1,5 @@
 ---
 tags:
-  - climate_change
   - America
   - Elon_Musk
   - fascism
