@@ -7,6 +7,7 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="description" content="post by Tom Brandis - {{ page.title }}">
+    <meta name="keywords" content="{{page.tags | join: ", " | replace: "_", " "}}">
 
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/reset.css" | relative_url }}">
