@@ -11,4 +11,4 @@ soundcloud: https://soundcloud.com/charlixcx/sets/brat-525926794
 ---
 This album has some of the most catchy songs in it ever. Nearly every one could be a single.
 
-Also check out this website for putting your own words on a brat-style album cover which I found quite fun.
+Also check out this website for [putting your own words](https://www.bratgenerator.com/) on a brat-style album cover which I found quite fun.
