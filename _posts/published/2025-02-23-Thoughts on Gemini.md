@@ -9,8 +9,7 @@ edited_date:
 title: Thoughts on the Gemini protocol
 previous_in_series:
 ---
-[Gem
-ini](https://geminiquickst.art/) is a protocol for distributing a type of markup called gemtext which is based on markdown. The basic idea is that it is an alternative to the world wide web that is entirely composed of simple text pages. CSS is not a thing in Gemini - all pages look the same.
+[Gemini](https://geminiquickst.art/) is a protocol for distributing a type of markup called gemtext which is based on markdown. The basic idea is that it is an alternative to the world wide web that is entirely composed of simple text pages. CSS is not a thing in Gemini - all pages look the same.
 
 It is really cool.  The pages are really small (data wise) and the consistent, customisable look is really nice.
 
