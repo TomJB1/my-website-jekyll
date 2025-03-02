@@ -18,6 +18,7 @@ main
     width: 80%;
     max-width: 35rem;
     text-align: left;
+    margin-bottom: 300px;
 
     & p, li
     {
@@ -47,7 +48,6 @@ a {
 footer {
     margin: auto;
     width: fit-content;
-    margin-top: 300px;
 }
 
 img
