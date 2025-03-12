@@ -8,17 +8,34 @@ p
 {
     margin: 0px;
     margin-top: 1.2em;
-    color: #555;
     text-align: center;
+}
+
+header
+{
+    margin-bottom: 1rem;
+}
+
+.publish-date
+{
+    font-style: italic;
 }
 
 main
 {
     margin: auto;
     width: 80%;
-    max-width: 35rem;
+    max-width: 36rem;
     text-align: left;
-    margin-bottom: 300px;
+    margin-bottom: 16rem;
+    @media (min-width: 45rem) {
+        border-left: solid grey 0.1rem;
+        border-right: solid grey 0.1rem;
+        border-top: none;
+        border-bottom: none;
+        padding: 0.2rem 1rem;
+    
+    }
 
     & p, li
     {
