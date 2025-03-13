@@ -12,6 +12,9 @@ layout: compress
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/reset.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/posts.css" | relative_url }}">
+    {% if page.code %}
+    <script defer src="{{ "/assets/js/copy_code.js" | relative_url }}"></script>
+    {%endif%}
   </head>
   <body>
     {% if page.tags contains 'rant'%}
