@@ -1,10 +1,52 @@
-input_wrapper = document.getElementById("date");
-input = document.createElement("select");
-input_wrapper.appendChild(input);
+input = document.getElementById("date").appendChild(document.createElement("select"));
 input.addEventListener("change", calculate);
 output = document.getElementById("output");
+change = document.getElementById("change");
 
-data = { // https://gml.noaa.gov/ccgg/trends/gl_data.html
+preindustrialLevel = 280;
+
+data = { 
+    // 1940-1978 (1940-1957 ice cores) https://data.giss.nasa.gov/modelforce/ghgases/
+    1940:  311.3,
+    1941:  311.0,
+    1942:  310.7,
+    1943:  310.5,
+    1944:  310.2,
+    1945:  310.3,
+    1946:  310.3,
+    1947:  310.4,
+    1948:  310.5,
+    1949:  310.9,
+    1950:  311.3,
+    1951:  311.8,
+    1952:  312.2,
+    1953:  312.6,
+    1954:  313.2,
+    1955:  313.7,
+    1956:  314.3,
+    1957:  314.8,
+    1958:  315.34,
+    1959:  316.18,
+    1960:  317.07,
+    1961:  317.73,
+    1962:  318.43,
+    1963:  319.08,
+    1964:  319.65,
+    1965:  320.23,
+    1966:  321.59,
+    1967:  322.31,
+    1968:  323.04,
+    1969:  324.23,
+    1970:  325.54,
+    1971:  326.42,
+    1972:  327.45,
+    1973:  329.43,
+    1974:  330.21,
+    1975:  331.36,
+    1976:  331.92,
+    1977:  333.73,
+    1978:  335.42,
+    // 1975-2024 https://gml.noaa.gov/ccgg/trends/gl_data.html
     1979:  336.85,
     1980:  338.91,
     1981:  340.11,
@@ -56,9 +98,10 @@ data = { // https://gml.noaa.gov/ccgg/trends/gl_data.html
 function calculate()
 {
     output.innerText = data[input.value];
+    change.innerText = Math.round((data[input.value]-preindustrialLevel)* 10) / 10;
 }
 
-for (let i = 1979; i < 2025; i++) {
+for (let i = 1940; i < 2025; i++) {
     option = document.createElement("option");
     option.innerText = i;
     if(i==2007)
