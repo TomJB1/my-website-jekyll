@@ -82,4 +82,10 @@ table
         border: 1px solid black;
         padding: 0.4rem;
     }
+
+    & thead
+    {
+        background-color: rgb(221, 221, 221);
+        font-weight: bold;
+    }
 }
