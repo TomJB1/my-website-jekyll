@@ -89,3 +89,14 @@ table
         font-weight: bold;
     }
 }
+
+.star
+{
+    color: goldenrod;
+    margin-left: 0.2em;
+}
+
+.small
+{
+    font-size: 0.7em;
+}

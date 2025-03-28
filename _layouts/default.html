@@ -51,7 +51,7 @@ layout: compress
     {% for post in site.posts %}
       {% if post.previous_in_series == page.title %}
         <h2>next post in series</h2>
-        <a href="{{post.url}}">{{post.title}}</a>
+        <p><a href="{{post.url}}">{{post.title}}</a>{% if  post.favourite %}<span class="star">★<span class="small">favourite</span></span>{%endif%}</p>
       {% endif %}
     {%endfor%}
 
@@ -59,7 +59,7 @@ layout: compress
       {% for post in site.posts %}
         {% if page.previous_in_series == post.title %}
           <h2>previous post in series</h2>
-          <a href="{{post.url}}">{{post.title}}</a>
+          <p><a href="{{post.url}}">{{post.title}}</a>{% if  post.favourite %}<span class="star">★<span class="small">favourite</span></span>{%endif%}</p>
         {% endif %}
       {%endfor%}
     {%endif%}
@@ -73,7 +73,7 @@ layout: compress
             <h2>related posts</h2><ul>
             {% assign has_heading = true %}
           {%endif%}
-          <li><a href="{{post.url}}">{{post.title}}</a></li>
+          <li><a href="{{post.url}}">{{post.title}}</a>{% if  post.favourite %}<span class="star">★<span class="small">favourite</span></span>{%endif%}</li>
           {%break%}
         {%endif%}
       
