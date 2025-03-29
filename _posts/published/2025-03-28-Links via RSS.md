@@ -1,10 +1,13 @@
 ---
-tags: 
-skills: []
+tags:
+  - tech
+  - world_wide_web
+  - links
+skills: 
 layout: default
 edited_date: 
 title: Links via RSS
-previous_in_series: 
+previous_in_series:
 ---
 Do you want to get interesting links infrequently from slightly random places around the web? Do you want to get it via RSS? Well you're in luck! Subscribe to my new [links RSS feed](https://tombrandis.uk/links/feed.xml).
 

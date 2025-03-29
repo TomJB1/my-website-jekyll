@@ -1,10 +1,15 @@
 ---
-tags: 
-skills: []
+tags:
+  - solar_eclipse
+  - physics
+  - space
+  - sun
+  - moon
+skills: 
 layout: default
 edited_date: 
 title: Partial solar eclipse 2025
-previous_in_series: 
+previous_in_series:
 ---
 I saw a partial solar eclipse here in the UK today. I've been mostly avoiding the news in general recently meaning that I only found out about it about an hour before.
 
