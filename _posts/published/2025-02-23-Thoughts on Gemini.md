@@ -3,6 +3,7 @@ tags:
   - Gemini
   - altenative_web
   - alternative_markup
+  - tech
 skills: 
 layout: default
 edited_date: 
