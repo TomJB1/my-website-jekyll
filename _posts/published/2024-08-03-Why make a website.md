@@ -15,5 +15,7 @@ Around the same time I was getting involved in (read: just looking at) linux and
 I used iSH to run my first ever website from my old iPhone5S using static files and the [lighttpd](https://www.lighttpd.net/) web server. As time went by I purchased a rasberry pi 1A+ and moved my website to that. I added PHP to make a message board thing - that code was the worst mess ever! I rewrote it completely in Golang and finally, a couple of weeks ago ripped it all down and restarted as a staticly generated website and blog using Jekyll. I will probably add some back-end functionality at some point but I don't know what language I'll be using. 
 
 ---
-I wonder if anyone else will ever read this. I don't have any stats for the website right now so I wouldn't even know if they did. If you are reading this 
+I wonder if anyone else will ever read this. I don't have any stats for the website right now so I wouldn't even know if they did. If you are reading this
 feel free to email me at [tomjbrandis@gmail.com](mailto:tomjbrandis@gmail.com), I'd be interested to know.
+
+<i>Update 30/03/25: My preferred email is now [tom@tombrandis.uk](mailto:tom@tombrandis.uk?subject=Response%20to%20Why%20make%20a%20website).</i>

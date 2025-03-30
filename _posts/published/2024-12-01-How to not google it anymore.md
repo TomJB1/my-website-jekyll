@@ -48,6 +48,8 @@ I also recommend finding the wikis that are relevant to you - there are ones for
 
 I'll continue to update this if I find more - if you know of any that you think I might like I would love you to email me at [tomjbrandis [at] gmail [dot] com](mailto:tomjbrandis@gmail.com).
 
+<i>Update 30/03/25: My preferred email is now [tom@tombrandis.uk](mailto:tom@tombrandis.uk?subject=Response%20to%20How%20to%20not%20google%20it%20anymore).</i>
+
 I also might try and make my own search engine at some point for fun. It's just an idea at this point and it probably wouldn't be able to compete with any of these but we'll see what happens with that.
 
 ## Changes

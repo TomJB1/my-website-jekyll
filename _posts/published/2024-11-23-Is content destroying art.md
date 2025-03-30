@@ -61,8 +61,9 @@ I don't think that content - stuff that is strongly influenced by what someone n
 
 As always I don't (yet?) have a solution. I will instead leave you, with a website that inspired this piece. [Salad magazine](https://zine.kalechips.net/index) seems like a perfect example of content-art unburdened by an algorithm or corporation. They have only had three short editions so far but I am hoping that more come along in the future.
 
-
 As always I welcome comments and complaints - mail me at [tomjbrandis@gmail.com](mailto:tomjbrandis@gmail.com?subject=Response%20to%20The%20paradox%20of%20content). Sorry for all the YouTube links, I prefer not linking to big platforms but there are still a lot of people that I admire on them!
+
+<i>Update 30/03/25: My preferred email is now [tom@tombrandis.uk](mailto:tom@tombrandis.uk?subject=Response%20to%20The%20paradox%20of%20content).</i>
 
 ## Footnotes
 [^1]: [Content Versus Art - Thomas J Bevan](https://thomasjbevan.substack.com/p/content-versus-art), [art vs content - Make art not content](https://www.youtube.com/watch?v=9DWudFF8ZEY), [The problem with the internet that no one is talking about](https://youtu.be/Ieq6V3o4rqM?si=SRMgHOZH-UQXTQmJ), [Everything Is Content Now - Patrick (H) Willems](https://nebula.tv/videos/patrickhwillems-everything-is-content-now) ([youtube version](https://www.youtube.com/watch?v=hAtbFwzZp6Y)), [Why Being a Content Creator is Ruining your Art - Juliana Palermo](https://www.the-plottery.com/blog/why-being-a-content-creator-is-ruining-your-art) 

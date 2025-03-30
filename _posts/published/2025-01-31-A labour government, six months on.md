@@ -11,6 +11,9 @@ title: A labour government, six months on
 previous_in_series:
 ---
 A week or so ago, our current government passed 6 months in office. So how well have they done? I've definitely missed things - if you think that I have missed something particularly important maybe [send me some mail](mailto:tomjbrandis@gmail.com), I would be interested to hear your point of view. Now lets get into it.
+
+<i>Update 30/03/25: My preferred email is now [tom@tombrandis.uk](mailto:tom@tombrandis.uk?subject=Response%20to%20A%20labour%20goverment%20six%20months%20on).</i>
+
 ## The good things
 I'm going to start with all the best things that they have achieved.
 - There is going to be [more funding for the NHS](https://www.gov.uk/government/news/new-funding-to-fix-the-nhs-heres-how-it-will-be-spent). Hopefully this will reverse the trend of worsening care or at least stop it collapsing. I've seen more people opting for private care and this creates a two-tier system for health that is quite worrying so this is definitely a step in the right direction.
