@@ -16,12 +16,12 @@ regenerate: true
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <copyright>{{ 'now' | date: "%Y" }} Tom Brandis</copyright> 
 
-    {% for post in site.posts limit:200 %}
+    {% for post in site.posts limit:5 %}
     {% if post.sitemap != false %} 
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.excerpt | xml_escape }}...</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <pubDate>{% if post.rss_date %}{{post.rss_date}}{%else%}{{ post.date | date_to_rfc822 }}{%endif%}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% for tag in post.tags %}
