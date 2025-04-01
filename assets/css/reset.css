@@ -29,7 +29,7 @@
 
 
 body{
-    font-family: "Red Hat Mono", "Lucida Sans Typewriter", "Times New Roman", serif;
+    font-family: "Red Hat Mono", monospace;
 
 a{
     color: black;
