@@ -4,11 +4,12 @@ title: uses
 ---
 ## Hardware
 I have a [Samsung Galaxy A50](https://en.wikipedia.org/wiki/Samsung_Galaxy_A50) phone and a Thinkpad T16 with a 12th Gen Intel i7 processor and 32GB of RAM. I also have a [Rasberry Pi 1A+](https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus/) that I use as a server.
-
 ## Operating system
 I use Windows 10 on my laptop, Android on my phone and [DietPi linux](https://dietpi.com/) on my server.
 ## Social Media
 I don't use social media much but when I do it is Mastodon or occasionally Bluesky. I'm also on Instagram (because of network effects) but try to avoid it.
+## My website
+I write the posts as markdown in [Obsidian](https://obsidian.md/) and use Jekyll to generate the website. I then serve it with [lighttpd](https://www.lighttpd.net/) on my [Rasberry Pi 1 A+](https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus).
 ## Other software
 - Web browsing: [LibreWolf](https://librewolf.net/) with a load of extensions:
     - [WAVE](https://wave.webaim.org/) for improving the accessibility of this website.
@@ -25,7 +26,7 @@ I don't use social media much but when I do it is Mastodon or occasionally Blues
     - [Redirector](https://addons.mozilla.org/en-US/firefox/addon/redirector/) to redirect x to xcancel, medium to freedium and yt shorts to normal youtube.
     - [Indiewikibuddy](https://getindie.wiki/) to find better wikis.
     - [HideW3Schools](https://addons.mozilla.org/en-US/firefox/addon/hide-w3schools-on-duckduckgo/) because I don't like them.
-- Notes and Markdown editing: [Obsidian](https://obsidian.md/).
+- Notes: [Obsidian](https://obsidian.md/).
 - Coding: [VSCode](https://code.visualstudio.com/)([ium](https://vscodium.com/))
 - Version control: [Git](https://git-scm.com/) with Github, although I'm considering moving to self hosting.
 - Writing documents: [LibreOffice](https://www.libreoffice.org/) and [Zotero](https://www.zotero.org/) (citations)
