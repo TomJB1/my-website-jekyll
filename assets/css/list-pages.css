@@ -1,0 +1,23 @@
+.star
+{
+    color: goldenrod;
+    margin-left: 0.2em;
+}
+
+.small
+{
+    font-size: 0.7em;
+}
+
+@media (max-width: 35rem) {
+    li {
+        padding: 0.5em;
+        list-style-type: none;
+        list-style-position: inside;
+        border-bottom: solid black 1px;
+    }
+
+    ul {
+        padding: 0;
+    }
+}
