@@ -1,0 +1,31 @@
+---
+regenerate: true
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Index of {{page.title}} by Tom Brandis">
+
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+</head>
+<body>
+    <style>
+    main
+    {
+        max-width: 60em;
+        & p, li {
+            font-family: sans-serif;
+        }
+    }
+    </style>
+    <a href="..">go up ^</a>
+    <h1>{{page.title}} {% if page.tag_page %}| <a href="{{page.tag_page}}">tags</a>{%endif%} {% if page.rss == true %} (<a rel="alternate" type="application/rss+xml" href="./feed.xml" title="Tom Brandis">rss</a>) {%endif%}</h1>
+    <main>
+        {{content}}
+    </main>
+</body>
+</html>
