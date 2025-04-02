@@ -14,7 +14,7 @@
         padding: 0.5em;
         list-style-type: none;
         list-style-position: inside;
-        border-bottom: solid black 1px;
+        border-bottom: solid var(--text-color) 1px;
     }
 
     ul {

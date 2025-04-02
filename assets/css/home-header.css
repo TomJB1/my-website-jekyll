@@ -14,7 +14,7 @@ header
         margin: auto;
         padding-top: 0.4em;
         font-size: 4rem;
-        color: #180101;
+        color: var(--text-color);
         width: fit-content;
         letter-spacing: 0.444em;
         font-weight: 400;
@@ -23,7 +23,7 @@ header
         & a {
             text-decoration: none;
             &:visited {   
-                color: black;
+                color: var(--text-color);
             }
 
             &:hover {

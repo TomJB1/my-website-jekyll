@@ -26,7 +26,7 @@
 
 label:has(> input:checked)
 {
-    background-color: var(--highlight-background-light);
+    background-color: var(--background-color-highlight);
     box-shadow: none;
 }
 
@@ -44,20 +44,20 @@ label:has(> input:checked)
     & .thing
     {
         margin-top: 10px;
-        border: solid black .1px;
+        border: solid var(--text-color) .1px;
         font-size: 1.4rem;
         p {
             margin: 10px;
         }
 
         .thing-skills {
-            color: rgb(40, 40, 40);
+            color: var(--text-color);
             font-size: small;
         }
 
         &:focus-within, &:hover
         {
-            background-color: var(--highlight-background-light);
+            background-color: var(--background-color-highlight);
         }
     }
 

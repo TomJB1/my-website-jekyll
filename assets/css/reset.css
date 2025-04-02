@@ -20,20 +20,34 @@
 :root
 {
     --highlight-flare: #ff2828;
-    --highlight-background-light: #ff6d6d;
+    --highlight-secondary: #fdadad;
+    --highlight-dark: #db0000;
+    --text-color: black;
+    --background-color: white;
+    --background-color-highlight: #f7d7d7;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: rgb(231, 228, 228);
+        --background-color: rgb(30, 28, 28);
+        --highlight-secondary: #841a1a;
+        --background-color-highlight: #4f0909;
+    }
 }
 
 *{
     box-sizing: border-box;
-}
 
+    &::selection {
+        background-color: var(--highlight-dark);
+        color: white;
+    }
+}
 
 body{
     font-family: "Red Hat Mono", monospace;
-
-a{
-    color: black;
-}
+    background-color: var(--background-color);
 }
 
 h1
@@ -41,15 +55,40 @@ h1
     text-wrap: balance;
 }
 
-a:link
-{
-    color: var(--text-main);
+a {
+    color: var(--text-color);
+    text-decoration: underline 0.2em var(--highlight-flare);
+    text-decoration-skip-ink: none;
+
+    &:hover {
+        background-color: var(--highlight-dark);
+        color: #fff;
+        text-decoration-color: var(--highlight-dark);
+        &:visited {
+            color: var(--text-color);
+            background-color: var(--highlight-secondary);
+            text-decoration-color: var(--highlight-secondary);
+        }
+    }
+
+    &:visited:not(:hover) {
+        text-decoration-color: var(--highlight-secondary);
+    }
+
+    &::selection
+    {
+        background: var(--highlight-flare);
+        color: white;
+    }
 }
 
-a:visited
+p, li, label, td, h1, h2, h3, h4, h5
 {
-    text-decoration-color: var(--highlight-flare);
-    color: #5902dd;
+    color: var(--text-color);
+    &::selection {
+        background-color: var(--highlight-dark);
+        color: white;
+    }
 }
 
 input
@@ -57,7 +96,7 @@ input
     outline: none;
     border:none;
     background-image:none;
-    background-color:white;
+    background-color: var(--background-color);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;  
@@ -79,13 +118,13 @@ table
 
     & td, th
     {
-        border: 1px solid black;
+        border: 1px solid var(--text-color);
         padding: 0.4rem;
     }
 
     & thead
     {
-        background-color: rgb(221, 221, 221);
+        background-color: var(--background-color-highlight);
         font-weight: bold;
     }
 }

@@ -43,19 +43,12 @@ main
         font-family: sans-serif;
         font-size: 1.1rem;
         text-align: left;
-        color: black;
+        color: var(--text-color);
 
         @media (max-width: 30rem) {
             font-size:1rem;
         }
         
-    }
-}
-
-a {
-    text-decoration: underline dotted;
-    &:hover {
-        text-decoration: underline;
     }
 }
 
