@@ -3,7 +3,11 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 cd "${SCRIPT_DIR}/.."
 DIR=$(pwd)
 
-python $SCRIPT_DIR/links/add_link.py "$1" "$2" "$3"
+if [ -n "$1" ]; then
+    python $SCRIPT_DIR/links/add_link.py "$1" "$2" "$3"
+fi
+
+python $SCRIPT_DIR/links/create_feed.py
 
 if [[ "$OSTYPE" == "msys" ]]; then
     export MSYS_NO_PATHCONV=1
