@@ -42,7 +42,7 @@ layout: compress
             <li><a href="/thank-you.html">thank you's</a></li>
         </ul>
     </main>
-    <div id="webrings">
+    <div class="centered">
         <h2>Webrings</h2>
         <p>have a good onward journey</p>
         <ul>
@@ -81,6 +81,12 @@ layout: compress
                     <a href="https://theforest.link/">the forest</a>
                 </div>
             </li>
+        </ul>
+        <h2>Blogroll</h2>
+        <ul>
+            {% for blog in site.data.blogs %}
+            <li><a href="{{blog.htmlUrl}}">{{blog.name}}</a> | <a href="{{blog.xmlUrl}}">rss</a></li>
+            {%endfor%}
         </ul>
     </div>
 </body>

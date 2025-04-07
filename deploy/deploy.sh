@@ -19,6 +19,8 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
+python $SCRIPT_DIR/blogroll/get_blogs.py
+
 git fetch
 if [[ `git status --porcelain` ]] && [ -z "$force" ]; then
 echo "commit changes"

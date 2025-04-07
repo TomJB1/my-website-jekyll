@@ -16,42 +16,17 @@ main {
     padding: 1.2rem 0;
 }
 
-#webrings
+.centered
 {
-    padding: 10px;
-    margin-top: 100px;
     margin: auto;
     width: fit-content;
-
-    h2{
-        font-size: 24px;
-    }
     div{
-        font-size: 19px;
-        padding: 10px;
-        padding-bottom: 50px;
         overflow: auto;
     }
 }
 
 .rss-feed {
     display: none;
-}
-
-#music 
-{
-    position: sticky;
-    bottom: 0;
-    background-color: white;
-    padding-left: 20px;
-
-    audio
-    {
-        height: 20px;
-        bottom: -3px;
-        position: relative;
-        margin-right: 3px;
-    }
 }
 
 header p
