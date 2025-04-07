@@ -128,3 +128,8 @@ table
         font-weight: bold;
     }
 }
+
+strong
+{
+    text-decoration: double underline;
+}
