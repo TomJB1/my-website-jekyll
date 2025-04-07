@@ -17,17 +17,12 @@ Remember to push posts!
     * [lightningcss-cli](https://lightningcss.dev/docs.html)
 * ssh
 * rsync
+* python
 3. Only on Windows:
 You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/WindowsApps/jekyll` to the path to the path of your ruby executable
 
-# server
-* redirect /profile.html to /about-me.html
-
 # what I want to add in the future
-* albums page
 * comments
-* RSS subscription page
-* links I like
 * search engine!
 * webmentions (maybe, don't really know much about it)
 * recipe book
