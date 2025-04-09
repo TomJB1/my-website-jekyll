@@ -24,6 +24,7 @@ If you just want to write text then you might just want a blog service. I don't 
 - [Bear blog](https://bearblog.dev/)
 - [Wordpress](https://wordpress.org/)
 - [Blogger](https://www.blogger.com/about)
+
 ### Website hosting
 If you want more control over your website you can make your own HTML and CSS. It's not as hard as it sounds! The next post in this series will be a tutorial on writing your first HTML website. This can be done with the help of static site generators like [Hugo](https://gohugo.io/), [11ty](https://www.11ty.dev/) and [Jekyll](https://jekyllrb.com).
 - [xmit](https://xmit.co) - free, quick and allows custom domain names.
