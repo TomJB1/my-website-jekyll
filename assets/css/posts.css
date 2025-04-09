@@ -13,7 +13,7 @@ p
 
 header
 {
-    margin-bottom: 1rem;
+    margin: 15em 0;
 }
 
 .publish-date
@@ -23,19 +23,8 @@ header
 
 main
 {
-    margin: auto;
-    width: 80%;
-    max-width: 36rem;
     text-align: left;
     margin-bottom: 16rem;
-    @media (min-width: 45rem) {
-        border-left: solid grey 0.1rem;
-        border-right: solid grey 0.1rem;
-        border-top: none;
-        border-bottom: none;
-        padding: 0.2rem 1rem;
-    
-    }
 
     & p, li
     {
@@ -49,6 +38,19 @@ main
             font-size:1rem;
         }
         
+    }
+
+    p, h1,h2, h3, h4, h5, ol, ul
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        max-width: 36rem;
+    }
+
+    h2
+    {
+        margin-top: 5em;
     }
 }
 
@@ -72,6 +74,8 @@ img
     background-color: #f2f2f2;
     border: black 1px solid;
     padding: 0.3em;
+    max-width: 60rem;
+    margin: auto;
 
     & pre
     {
