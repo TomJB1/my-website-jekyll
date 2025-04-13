@@ -109,7 +109,7 @@ hr
 
 .highlight-flair
 {
-    border: 0.6rem solid #FF2828;
+    border: 0.6rem solid var(--highlight-flare);
 }
 
 table
