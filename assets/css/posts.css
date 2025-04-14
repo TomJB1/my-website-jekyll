@@ -87,6 +87,7 @@ a:has(img)
     padding: 0.3em;
     max-width: 60rem;
     margin: auto;
+    color: black;
 
     & pre
     {

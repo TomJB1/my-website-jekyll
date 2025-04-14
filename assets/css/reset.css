@@ -49,6 +49,7 @@
 body{
     font-family: "Red Hat Mono", monospace;
     background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 h1
