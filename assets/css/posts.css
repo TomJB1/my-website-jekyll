@@ -69,10 +69,21 @@ footer {
     width: fit-content;
 }
 
-img
+a:has(img)
 {
-    min-width: max(min(280px, 100%), 200px);
-    width: 80%;
+    width: min(30em, 100%);
+    margin: auto;
+    display: block;
+
+    &:hover {
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    img
+    {
+        width: 100%;
+    }
 }
 
 .codeblock
