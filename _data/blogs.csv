@@ -1,5 +1,6 @@
 name,xmlUrl,htmlUrl
 32-Bit Cafe Bytes,https://listmonk.32bit.cafe/archive.xml,https://listmonk.32bit.cafe
+82MHz,https://82mhz.net/index.xml,https://82mhz.net
 404 Media,https://www.404media.co/rss/,https://www.404media.co
 adast RSS Feed,https://adast.dk/index.rss,https://adast.dk
 Alex Schroeder’s Diary,https://alexschroeder.ch/view/index.rss,https://alexschroeder.ch
@@ -7,6 +8,7 @@ Always Judge a Book by its Cover,https://alwaysjudgeabookbyitscover.com/index.xm
 Artists and Hackers,https://www.artistsandhackers.org/feed.xml,https://www.artistsandhackers.org
 Axe Drax,https://axedrax.uk/feed/,https://axedrax.uk
 BIG by Matt Stoller,https://www.thebignewsletter.com/feed,https://www.thebignewsletter.com
+Bobby's Blog,https://bobbyhiltz.com/atom.xml,https://bobbyhiltz.com
 brokkr.net,https://brokkr.net/feed/,https://brokkr.net
 Chartography,https://www.chartography.net/feed,https://www.chartography.net
 Climate Town,https://www.climatetown.news/feed.xml,https://www.climatetown.news
@@ -17,6 +19,7 @@ dbushell.com,https://dbushell.com/rss.xml,https://dbushell.com
 Dead Archivist Society,https://transjovian.org/view/archives/index.rss,https://transjovian.org
 Dense Discovery,https://www.densediscovery.com/feed/,https://www.densediscovery.com
 Drew DeVault's blog,https://drewdevault.com/blog/index.xml,https://drewdevault.com
+Duanin2's Blog,https://duanin2.eu/feed.rss,https://duanin2.eu
 Dungeon Masters Guild Newsletter:,https://www.dmsguild.com/newsletter_rss_feed.php,https://www.dmsguild.com
 DysonLogos.com,http://www.dysonlogos.com/feed/,https://www.dysonlogos.com
 Ed Zitron's Where's Your Ed At,https://www.wheresyoured.at/rss/,https://www.wheresyoured.at
@@ -33,6 +36,7 @@ FreshRSS releases,https://github.com/FreshRSS/FreshRSS/releases.atom,https://git
 Frills - Blog &amp; experiments,https://frills.dev/rss.xml,https://frills.dev
 Global Nature Beat,https://thenaturebeat.substack.com/feed,https://thenaturebeat.substack.com
 godteeth's blog,https://godteeth.com/blog/RSS.xml,https://godteeth.com
+Helen Chong's Developer Blog,https://helenchong.dev/blog/feed.xml,https://helenchong.dev
 Home With The Armadillo,https://homewiththearmadillo.blog/feed/,https://homewiththearmadillo.blog
 How Does This Software Work?,https://adrian.geek.nz/docs.atom,https://adrian.geek.nz
 It's FOSS News,https://news.itsfoss.com/latest/rss/,https://news.itsfoss.com
@@ -50,6 +54,7 @@ Ludicity,https://ludic.mataroa.blog/rss/,https://ludic.mataroa.blog
 lyra's epic blog!,https://lyra.horse/blog/posts/index.xml,https://lyra.horse
 Marcos Leben Blog,https://www.marcozehe.de/rss.xml,https://www.marcozehe.de
 "Mister, is this right?",https://misteristhisright.com/feed/,https://misteristhisright.com
+moddedbear.com,https://moddedbear.com/index.xml,https://moddedbear.com
 Musings,https://benjaminhollon.com/musings/feed/,https://benjaminhollon.com
 Nemanja Mijailovic’s Blog,https://mijailovic.net/feed.xml,https://mijailovic.net
 p1k3,https://p1k3.com/feed,https://p1k3.com
