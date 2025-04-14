@@ -32,6 +32,22 @@ main
     text-align: left;
     margin-bottom: 16rem;
 
+    & > p:first-child
+    {
+        margin-bottom: 3em;
+        &::first-letter
+        {
+            float: left;
+            color: var(--background-color);
+            margin: 0.2em 0.2em 0 0;
+            font-size: 2em;
+            background-color: var(--highlight-dark);
+            padding: 0.5em;
+            font-weight: bolder;
+        }
+
+    }
+
     & p, li
     {
         line-height: 2em;
