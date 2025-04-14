@@ -25,6 +25,7 @@
     --text-color: black;
     --background-color: white;
     --background-color-highlight: #f7d7d7;
+    font-size: 18px;
 }
 
 @media (prefers-color-scheme: dark) {
