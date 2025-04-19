@@ -11,7 +11,6 @@ edited_date:
 title: How to get started with a website
 previous_in_series:
 ---
-
 So you want to make a website? 
 
 Firstly get a bit of paper (or a notes app) and figure out what you want it to be like. Is it about a hobby, for a blog or a resume? Maybe its a mixture. Either way allow yourself to get a bit excited about it.
