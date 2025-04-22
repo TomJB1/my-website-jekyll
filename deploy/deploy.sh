@@ -22,7 +22,7 @@ done
 python $SCRIPT_DIR/blogroll/get_blogs.py
 
 git fetch
-if [[ `git status --porcelain` ]] && [ -z "$force" ]; then
+if [[ `git status --porcelain` ]] && [ -z "$force" ] && [ -z "$local" ]; then
 echo "commit changes"
 else
     if [ -n "$existing" ]; then
