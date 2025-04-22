@@ -1,0 +1,21 @@
+---
+regenerate: true
+---
+<!doctype html>
+<html>
+    <head>
+	<title>HTML handbook - Tom Brandis</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/assets/css/reset.css">
+    </head>
+    <body>
+	<h1>My HTML Handbook</h1>
+	<p>This 'handbook' on HTML elements that I commonly use is primerily for myself - it is likely to be highly opinionated and I recommend that you also read the <a href="https://developer.mozilla.org">MDN</a> and <a href="https://www.w3.org/TR/2014/REC-html5-20141028/">W3C</a> pages on them which will be linked at the bottom of each page.</p>
+	<h2>Pages</h2>
+	<ul>
+	    {% for entry in site.html-handbook %}
+	    <li><a href="{{ entry.url }}">{{ entry.title }} ({{ entry.name  }})</a></li>
+	    {%endfor%}
+	</ul>
+    </body>
+</html>
