@@ -144,6 +144,28 @@ table
     }
 }
 
+.codeblock
+{
+    background-color: #f2f2f2;
+    border: black 1px solid;
+    padding: 0.3em;
+    color: black;
+    width: max-content;
+
+    & pre
+    {
+        font-size: 1.2em;
+        overflow: auto;
+        margin-top: 0px;
+    }
+
+    & button
+    {
+        width: 100%;
+    }
+}
+
+
 strong
 {
     text-decoration: double underline;
