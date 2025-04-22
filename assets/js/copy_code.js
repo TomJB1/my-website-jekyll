@@ -6,7 +6,7 @@ for (let button of buttons) {
 
 async function copy(e)
 {
-    let text = e.target.parentNode.firstChild.innerText;
+    let text = e.target.parentNode.firstElementChild.innerText;
     try {
         await navigator.clipboard.writeText(text);
         e.target.innerText = "copied!"
