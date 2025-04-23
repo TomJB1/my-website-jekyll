@@ -8,6 +8,7 @@ yt_music: https://music.youtube.com/playlist?list=OLAK5uy_kmzoSOa_tCizE-r4sweNz9
 spotify: https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7
 artists_website: https://www.charlixcx.com/
 soundcloud: https://soundcloud.com/charlixcx/sets/brat-525926794
+album_alt_text: Bright green background with the slightly blurry word "brat" all lower case in the centre.
 ---
 This album has some of the most catchy songs in it ever. Nearly every one could be a single.
 

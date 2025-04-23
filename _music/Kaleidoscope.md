@@ -9,6 +9,7 @@ bandcamp: https://hollywouldsurrender.bandcamp.com/album/kaleidoscope
 yt_music: https://music.youtube.com/playlist?list=OLAK5uy_npPgE96Pe28hBeHgLnT8sDIMazbgm8L_g
 spotify: https://open.spotify.com/album/4gVloDfyeP6yPpcAO8HIOt
 artists_website: https://www.hollywouldsurrender.com/
+album_alt_text: A road going towards snowy mountains with "Holly Would Surrender" in a handwriting style. The album name is at the bottom over a decorative subdivided triangle.
 ---
 I find this album comfortable to listen to, although that's not to say that the songs are shallow - they definitely contain emotion. It is almost exactly half an hour long which is makes it useful for doing something for the length of it and also happens to be the length of my bus trip home.
 

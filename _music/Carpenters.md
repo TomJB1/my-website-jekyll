@@ -5,6 +5,7 @@ artist:
 layout: music
 yt_music: https://music.youtube.com/playlist?list=OLAK5uy_nnycAZgFMVg3poFWG8Oi8ozP8mn4xwdME
 spotify: https://open.spotify.com/album/3Br6amYT7sC9y3uvHkfRDI
+album_alt_text: Elaborately curled word "Carpenters" on a peach coloured background which has a ridge like an upside-down envelope.
 ---
 Calming music to sing along to.
 

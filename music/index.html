@@ -23,7 +23,7 @@ layout: compress
     <div class="album">
         <h2>{{page.title}}</h2>
         <p>{{page.artist | join: ", "}}</p>
-        <a href="{{page.url}}"><img src="/assets/music_art/{{page.artist}}/{{page.title | slugify}}.jpg"></a>
+        <a href="{{page.url}}"><img src="/assets/music_art/{{page.artist}}/{{page.title | slugify}}.jpg" alt="{{page.title}} (Album art)"></a>
     </div>
     {% endfor %}
   </main>

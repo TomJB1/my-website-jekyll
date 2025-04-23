@@ -9,6 +9,7 @@ title: 1,039/Smoothed Out Slappy Hours
 yt_music: https://music.youtube.com/playlist?list=OLAK5uy_kf4lWUIxSGY1IiD2uuWqymHhzVcT4btJM
 spotify: https://open.spotify.com/album/0wrqpE7UBZC44PFMtp3OfJ
 artists_website: https://greenday.com
+album_alt_text: A black and white picture of a woman next to a stone column with a tree behind her that has a white border as if it has been glued onto the page. The album title and "Green Day" are green and irregular.
 ---
 This album is a collection of Green Day's oldest music. The style is quite different to their more recent songs but I really like it.  I often play it in the background - the songs have a good beat that is conducive to studying, or at least that is what I tell myself!
 
