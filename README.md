@@ -19,7 +19,7 @@ Remember to push posts!
 * rsync
 * python
 3. Only on Windows:
-You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/WindowsApps/jekyll` to the path to the path of your ruby executable
+You may need to change the **path** on line 6 of `%LocalAppdata%/Microsoft/WindowsApps/jekyll` to the path of your ruby executable
 
 # what I want to add in the future
 * comments
