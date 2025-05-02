@@ -5,6 +5,7 @@ name,xmlUrl,htmlUrl
 adast RSS Feed,https://adast.dk/index.rss,https://adast.dk
 Alex Schroeder’s Diary,https://alexschroeder.ch/view/index.rss,https://alexschroeder.ch
 Always Judge a Book by its Cover,https://alwaysjudgeabookbyitscover.com/index.xml,https://alwaysjudgeabookbyitscover.com
+Anders Thoresson,https://anders.thoresson.se/rss/rss.xml,https://anders.thoresson.se
 Artists and Hackers,https://www.artistsandhackers.org/feed.xml,https://www.artistsandhackers.org
 Axe Drax,https://axedrax.uk/feed/,https://axedrax.uk
 BIG by Matt Stoller,https://www.thebignewsletter.com/feed,https://www.thebignewsletter.com
@@ -13,6 +14,7 @@ bojidar-bg.dev — Blog,https://bojidar-bg.dev/blog.xml,https://bojidar-bg.dev
 Brain Baking,https://brainbaking.com/index.xml,https://brainbaking.com
 brokkr.net,https://brokkr.net/feed/,https://brokkr.net
 Chartography,https://www.chartography.net/feed,https://www.chartography.net
+Christian Heilmann,https://christianheilmann.com/feed/,https://christianheilmann.com
 Climate Town,https://www.climatetown.news/feed.xml,https://www.climatetown.news
 Daley's blog,https://lingwhatics.ca/feed.xml,https://lingwhatics.ca
 danluu.com/atom.xml,https://danluu.com/atom.xml,https://danluu.com
@@ -78,6 +80,7 @@ ReconLabs,https://shelbyruettiger.substack.com/feed,https://shelbyruettiger.subs
 rootwork v0.2,https://write.as/hobbsc/feed/,https://write.as
 scientiac::syntropy,https://scientiac.space/atom.xml,https://scientiac.space
 Scope of Work,https://www.scopeofwork.net/rss/,https://www.scopeofwork.net
+shellsharks,https://shellsharks.com/feeds/all-feed.xml,https://shellsharks.com
 sizeof(cat),https://sizeof.cat/index.xml,https://sizeof.cat
 Solitas atom feed,https://solita.neocities.org/feed.xml,https://solita.neocities.org
 Stories by Nassim Nicholas Taleb on Medium,https://medium.com/@nntaleb/feed,https://medium.com
@@ -91,6 +94,7 @@ The Angry GM,https://theangrygm.com/feed/,https://theangrygm.com
 The Curious Creations of Tim Holman,https://tholman.com/feed.xml,https://tholman.com
 The Hermit Technology Blog - Hermit Tech,https://www.hermit-tech.com/blog?format=rss,https://www.hermit-tech.com
 The Indie Web,https://theindieweb.com/feed.xml,https://theindieweb.com
+thejaymo,https://thejaymo.net/feed/,https://thejaymo.net
 The Jolly Teapot,https://thejollyteapot.com/feed.rss,https://thejollyteapot.com
 the library of alexandra,https://library.xandra.cc/feed/,https://library.xandra.cc
 The Life of a Femcel,https://femcel1836.substack.com/feed,https://femcel1836.substack.com
