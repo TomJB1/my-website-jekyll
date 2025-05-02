@@ -1,13 +1,13 @@
 #!/bin/bash
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-cd "${SCRIPT_DIR}/.."
+cd "${SCRIPT_DIR}/../.."
 DIR=$(pwd)
 
 if [ -n "$1" ]; then
-    python $SCRIPT_DIR/links/add_link.py "$1" "$2" "$3"
+    python $SCRIPT_DIR/add_link.py "$1" "$2" "$3"
 fi
 
-python $SCRIPT_DIR/links/create_feed.py
+python $SCRIPT_DIR/create_feed.py
 
 if [[ "$OSTYPE" == "msys" ]]; then
     export MSYS_NO_PATHCONV=1
@@ -17,4 +17,4 @@ else
     rsync -r -v $DIR/links root@tombrandis.uk:/var/www/my-website-jekyll-built
 fi
 
-ssh root@tombrandis.uk < $SCRIPT_DIR/on_server/ownership.sh
+ssh root@tombrandis.uk < $SCRIPT_DIR/../on_server/ownership.sh

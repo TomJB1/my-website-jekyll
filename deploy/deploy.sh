@@ -20,6 +20,7 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 python $SCRIPT_DIR/blogroll/get_blogs.py
+python $SCRIPT_DIR/links/create_feed.py
 
 git fetch
 if [[ `git status --porcelain` ]] && [ -z "$force" ] && [ -z "$local" ]; then
