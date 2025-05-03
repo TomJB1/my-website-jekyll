@@ -83,6 +83,16 @@ layout: compress
     </ul>
     {%endif%}
 
+    {% if page.replies %}
+    <h2>replies</h2>
+    <ul>
+	{% for reply in page.replies  %}
+	{% assign reply_array = reply | split: "|" %}
+	<li><a href="{{reply_array[1]}}">{{reply_array[0]}}</a></li>
+	{%endfor%}
+    </ul>
+    {%endif%}
+
     <h2>reply</h2>
     <ul>
       <li><a href="mailto:tom@tombrandis.uk?subject=Reply to: {{page.title}}">mail me</a></li>
