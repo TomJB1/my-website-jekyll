@@ -5,6 +5,8 @@ skills:
 layout: default
 edited_date: 
 title: Why make a website?
+replies:
+  - SpaceGhost - Blue Dwarf|https://bluedwarf.top/cackle/view-post.php?post_num=5209
 ---
 Why have I made a website? I have in fact hosted some website or another at this address for some time. It all started when the UK went into lockdown because of Covid19. With huge amounts of time on my hands and a chromebook that didn't really run any games, I started learning to code. I stumbled apon [The Odin Project](https://www.theodinproject.com/) and worked through the foundations course. By the way this is a great source of information (and I still follow their instructions whenever I set up git on a new machine).
 
