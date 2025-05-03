@@ -107,6 +107,8 @@ input
 hr
 {
     border-style: solid;
+    width: 5em;
+    margin: 4em auto;
 }
 
 .highlight-flair
