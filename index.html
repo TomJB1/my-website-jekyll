@@ -49,65 +49,69 @@ layout: compress
         </ul>
     </main>
     <div class="centered">
-        <h2>Webrings</h2>
-        <p>have a good onward journey</p>
-        <ul>
-            <li>
-                <div>
-                    <a href="https://250kb.club/"><img src="/assets/images/250KB-Club-badge.png" alt="Proud member 250kB club"></a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://static.quest/previous/?host=tombrandis.uk" rel="nofollow">← prev</a>
-                    <a href="https://static.quest">static quest webring</a>
-                    <a style="font-size:60%" href="https://static.quest/random">(random)</a>
-                    <a href="https://static.quest/next/?host=tombrandis.uk" rel="nofollow">next →</a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://kalechips.net/responsive/index">Responsive Web Directory</a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://darktheme.club">Darktheme club</a>
-                </div>
-            </li>
-            <li>
-                <div id='bucket-webring'>
-                    <a href="https://webring.bucketfish.me/redirect.html?to=prev&name=Tom Brandis" rel="nofollow">←
-                        prev</a>
-                    <a href="https://webring.bucketfish.me" rel="nofollow">bucket webring</a>
-                    <a style="font-size:60%"
-                        href="https://webring.bucketfish.me/redirect.html?to=random&name=Tom Brandis"
-                        rel="nofollow">(random)</a>
-                    <a href="https://webring.bucketfish.me/redirect.html?to=next&name=Tom Brandis" rel="nofollow">next
-                        →</a>
-                </div>
-            </li>
-            <li>
-                <div id="noaiwebring">
-                    <a href="https://baccyflap.com/noai/?prv&s=tom" target="_top">← prev</a>&emsp;
-                    <a href="https://baccyflap.com/noai" target="_blank">No AI Webring</a>
-                    <a style="font-size:60%" href="https://baccyflap.com/noai/?rnd" target="_top">(random)</a>&emsp;
-                    <a href="https://baccyflap.com/noai/?nxt&s=tom" target="_top">next →</a>
-                </div>
-            </li>
-            <li>
-                <div id="theforest">
-                    <a href="https://theforest.link/">the forest</a>
-                </div>
-            </li>
-        </ul>
-        <h2>Blogroll</h2>
-	<p>Blogs that I read.</p>
-        <ul>
-            {% for blog in site.data.blogs %}
-            <li><a href="{{blog.htmlUrl}}">{{blog.name}}</a> | <a href="{{blog.xmlUrl}}">rss</a></li>
-            {%endfor%}
-        </ul>
+	<div>
+            <h2>Webrings</h2>
+            <p>have a good onward journey</p>
+            <ul>
+		<li>
+                    <div>
+			<a href="https://250kb.club/"><img src="/assets/images/250KB-Club-badge.png" alt="Proud member 250kB club"></a>
+                    </div>
+		</li>
+		<li>
+                    <div>
+			<a href="https://static.quest/previous/?host=tombrandis.uk" rel="nofollow">← prev</a>
+			<a href="https://static.quest">static quest webring</a>
+			<a style="font-size:60%" href="https://static.quest/random">(random)</a>
+			<a href="https://static.quest/next/?host=tombrandis.uk" rel="nofollow">next →</a>
+                    </div>
+		</li>
+		<li>
+                    <div>
+			<a href="https://kalechips.net/responsive/index">Responsive Web Directory</a>
+                    </div>
+		</li>
+		<li>
+                    <div>
+			<a href="https://darktheme.club">Darktheme club</a>
+                    </div>
+		</li>
+		<li>
+                    <div id='bucket-webring'>
+			<a href="https://webring.bucketfish.me/redirect.html?to=prev&name=Tom Brandis" rel="nofollow">←
+                            prev</a>
+			<a href="https://webring.bucketfish.me" rel="nofollow">bucket webring</a>
+			<a style="font-size:60%"
+                           href="https://webring.bucketfish.me/redirect.html?to=random&name=Tom Brandis"
+                           rel="nofollow">(random)</a>
+			<a href="https://webring.bucketfish.me/redirect.html?to=next&name=Tom Brandis" rel="nofollow">next
+                            →</a>
+                    </div>
+		</li>
+		<li>
+                    <div id="noaiwebring">
+			<a href="https://baccyflap.com/noai/?prv&s=tom" target="_top">← prev</a>&emsp;
+			<a href="https://baccyflap.com/noai" target="_blank">No AI Webring</a>
+			<a style="font-size:60%" href="https://baccyflap.com/noai/?rnd" target="_top">(random)</a>&emsp;
+			<a href="https://baccyflap.com/noai/?nxt&s=tom" target="_top">next →</a>
+                    </div>
+		</li>
+		<li>
+                    <div id="theforest">
+			<a href="https://theforest.link/">the forest</a>
+                    </div>
+		</li>
+            </ul>
+	</div>
+	<div>
+            <h2>Blogroll</h2>
+	    <p>Blogs that I read.</p>
+            <ul>
+		{% for blog in site.data.blogs %}
+		<li><a href="{{blog.htmlUrl}}">{{blog.name}}</a> | <a href="{{blog.xmlUrl}}">rss</a></li>
+		{%endfor%}
+            </ul>
+	</div>
     </div>
 </body>
 
