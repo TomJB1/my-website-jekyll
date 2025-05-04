@@ -28,7 +28,9 @@ language = "en-gb"
 time_to_live = 60 * 24 # mins
 
 
-rss_feed = f'''<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+rss_feed = f'''<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/assets/xsl/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>{title}</title>
     <link>{site}</link>
