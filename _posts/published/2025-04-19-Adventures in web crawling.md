@@ -11,7 +11,7 @@ rss_date: Sat, 19 April 2025 12:58 GMT
 ---
 If you've seen BrandisBot (+https://tombrandis.uk) in your logs, don't worry I'm not out to steal your blog or train AI. I'm trying to create a search engine.
 
-<i>If you don't want me to crawl you ever (I'm probably not as nice as some other bots) either email me at <a href="mailto:tom@tombrandis.uk">tom@tombrandis.uk</a> or add me to your robots.txt, which I do obey. Please don't block my IP because then I won't be able to view your website.  Also sorry for all the recrawls because I messed stuff up especially for the first couple of sites.</i>
+<aside>If you don't want me to crawl you ever (I'm probably not as nice as some other bots) either email me at <a href="mailto:tom@tombrandis.uk">tom@tombrandis.uk</a> or add me to your robots.txt, which I do obey. Please don't block my IP because then I won't be able to view your website.  Also sorry for all the recrawls because I messed stuff up especially for the first couple of sites.</aside>
 
 I wrote a very flimsy scraper in python.
 
