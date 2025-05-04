@@ -11,7 +11,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <link rel="stylesheet" href="/assets/css/list-pages.css" />
     </head>
     <body>
-      <h1>posts RSS feed</h1>
+      <h1><xsl:value-of select="/rss/channel/title"/> RSS feed</h1>
       <p>Copy this url into your feed reader.</p>
       <ul>
       <xsl:for-each select="/rss/channel/item">
