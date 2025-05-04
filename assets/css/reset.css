@@ -23,6 +23,7 @@
     --highlight-secondary: #fdadad;
     --highlight-dark: #db0000;
     --text-color: black;
+    --text-color-secondary: #565656;
     --background-color: white;
     --background-color-highlight: #f7d7d7;
     font-size: 18px;
@@ -31,6 +32,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --text-color: rgb(231, 228, 228);
+	--text-color-secondary: #afafaf;
         --background-color: rgb(30, 28, 28);
         --highlight-secondary: #841a1a;
         --background-color-highlight: #4f0909;
@@ -84,14 +86,24 @@ a {
     }
 }
 
-p, li, label, td, h1, h2, h3, h4, h5
+aside {
+  color: var(--text-color-secondary);
+  border-bottom: solid;
+  padding: 0.1em 1em 0.1em 1em;
+  border-top: solid;
+  max-width: 30em;
+  margin: 2em auto 2em auto;
+}
+
+
+p, li, label, td, h1, h2, h3, h4, h5, aside
 {
-    color: var(--text-color);
     &::selection {
         background-color: var(--highlight-dark);
         color: white;
     }
 }
+
 
 input
 {

@@ -49,12 +49,11 @@ main
 
     }
 
-    & p, li
+    & p, li, aside
     {
         line-height: 2em;
         font-family: sans-serif;
         text-align: left;
-        color: var(--text-color);
     }
 
     p, h1, h2, h3, h4, h5, ol, ul
