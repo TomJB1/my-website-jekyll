@@ -10,6 +10,8 @@ edited_date:
 title: Why I don't use AI in 2025
 previous_in_series: 
 rss_date: Sun, 04 May 2025 22:53 GMT
+replies:
+  - Lemmy (Readdthat)|https://reddthat.com/post/40515977
 ---
 I don't use any AI on this site. I also use very little AI in any other part of my life, despite being someone who is interested in tech in 2025. Why?
 
