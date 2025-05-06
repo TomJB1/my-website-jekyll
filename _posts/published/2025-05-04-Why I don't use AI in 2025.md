@@ -6,7 +6,7 @@ tags:
   - what_I_use
 skills: 
 layout: default
-edited_date: 
+edited_date: 2025-05-06
 title: Why I don't use AI in 2025
 previous_in_series: 
 rss_date: Sun, 04 May 2025 22:53 GMT
@@ -16,6 +16,7 @@ replies:
 I don't use any AI on this site. I also use very little AI in any other part of my life, despite being someone who is interested in tech in 2025. Why?
 
 <aside>To be clear I'm only referring to 'generative' or neural network AI in this piece rather than whatever definition allows everything to be "AI-powered" despite using decades old code. </aside>
+They say the easiest way to get answers to something is [to be wrong on the internet](https://en.m.wikipedia.org/wiki/Ward_Cunningham#Law). You might want to read my post where [[2025-05-06-Re Why I don't use AI in 2025|I address the response to this piece]] - which I have kept complete below.
 ## Energy use
 This is a big one for me. Not only do I care about the environment, I also have a slight obsession with doing things in an optimal or efficient way. AI isn't either of these things in many situations.
 
