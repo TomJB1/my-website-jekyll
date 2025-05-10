@@ -135,9 +135,11 @@ hr
     margin: 2em auto;
     
     & p::before {
-    content: "! ";
-    font-size: 3em;
-    vertical-align: middle;
+	content: "! ";
+	font-size: 3em;
+	vertical-align: middle;
+	float: left;
+	margin-right: .2em;
     }
 }
 
