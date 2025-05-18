@@ -13,7 +13,7 @@ Not long ago I wrote about [[2025-05-04-Why I don't use AI in 2025|why I don't u
 
 I've used the same headings here as in my original piece to divide up the criticism.
 ## Energy use
-I complained that the energy use of AI was inefficient compared to a conventional search. [patientpenguin@feddit.org](https://feddit.org/u/patientpenguin) replied with [an interesting article](https://substack.com/@andymasley) by [Andy Masley](https://substack.com/@andymasley) which is quite persuasive in arguing that the environmental impact of using a LLM is small compared to doing other things.
+I complained that the energy use of AI was inefficient compared to a conventional search. [patientpenguin@feddit.org](https://feddit.org/u/patientpenguin) replied with [an interesting article](https://andymasley.substack.com/p/a-cheat-sheet-for-conversations-about) by [Andy Masley](https://substack.com/@andymasley) which is quite persuasive in arguing that the environmental impact of using a LLM is small compared to doing other things.
 
 It is true that there are definitely bigger problems. The [International Energy Agency](https://www.iea.org), who certainly sound like they know what they're talking about, said that only [1.5% of the worlds energy use was for AI](https://www.iea.org/reports/energy-and-ai/executive-summary) last year.
 
