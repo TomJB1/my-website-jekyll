@@ -12,6 +12,8 @@ edited_date:
 title: Is content destroying art?
 previous_in_series: 
 favourite: true
+related:
+  - "Permanently moved #2511: Be Generous Online|https://permanentlymoved.online/2511-be-generous-online/"
 ---
 A lot of people seem to think that 'content' is ruining art,[^1] there are a couple of reasons they give. One of the more obvious and common criticisms of the term is that it groups a broad and diverse range of things together - all kinds of music, visual art, video, writing and more. 
 
