@@ -99,6 +99,17 @@ layout: compress
       <li><a href="https://mastodonapp.uk/@tombrandis">fediverse ⁂</a></li>
     </ul>
 
+
+    {% if page.related %}
+    <h2>related links</h2>
+    <ul>
+	{% for related_thing in page.related  %}
+	{% assign related_array = related_thing | split: "|" %}
+	<li><a href="{{related_array[1]}}">{{related_array[0]}}</a></li>
+	{%endfor%}
+    </ul>
+    {%endif%}
+
     <h2>view source</h2>
     <ul><li><a href="https://github.com/TomJB1/my-website-jekyll/blob/main/_posts/published/{{page.name}}?plain=1">github</a></li></ul>
 
