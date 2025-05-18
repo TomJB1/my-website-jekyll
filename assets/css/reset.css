@@ -27,15 +27,128 @@
     --background-color: white;
     --background-color-highlight: #f7d7d7;
     font-size: 18px;
-}
 
-@media (prefers-color-scheme: dark) {
-    :root {
+    @media (prefers-color-scheme: dark) {
         --text-color: rgb(231, 228, 228);
 	--text-color-secondary: #afafaf;
         --background-color: rgb(30, 28, 28);
         --highlight-secondary: #841a1a;
         --background-color-highlight: #4f0909;
+    }
+}
+
+.purple
+{
+    --highlight-flare: #b228ff;
+    --highlight-secondary: #e0adfd;
+    --highlight-dark: #b500db;
+    --text-color: black;
+    --text-color-secondary: #565656;
+    --background-color: white;
+    --background-color-highlight: #e7d7f7;
+    
+    @media (prefers-color-scheme: dark) {
+	--text-color: #e5e4e7;
+	--text-color-secondary: #afafaf;
+	--background-color: #1c1c1e;
+	--highlight-secondary: #4f1a84;
+	--background-color-highlight: #1f094f;
+    }
+}
+
+.orange
+{
+    --highlight-flare: #ff8135;
+    --highlight-secondary: #fdcfad;
+    --highlight-dark: #e38001;
+    --text-color: black;
+    --text-color-secondary: #565656;
+    --background-color: white;
+    --background-color-highlight: #f7e6d7;
+    
+    @media (prefers-color-scheme: dark) {
+	--text-color: #e7e5e4;
+	--text-color-secondary: #afafaf;
+	--background-color: #1e1d1c;
+	--highlight-secondary: #84471a;
+	--background-color-highlight: #4f2d09;
+    }
+}
+
+.yellow
+{
+    --highlight-flare: #fff228;
+    --highlight-secondary: #ffea75;
+    --highlight-dark: #665f00;
+    --text-color: black;
+    --text-color-secondary: #565656;
+    --background-color: #f8f4df;
+    --background-color-highlight: #f7f7d7;
+    
+    @media (prefers-color-scheme: dark) {
+	--text-color: #e7e7e4;
+	--text-color-secondary: #afafaf;
+	--background-color: #1f1700;
+	--highlight-secondary: #84731a;
+	--background-color-highlight: #4f4109;
+    }
+}
+
+.green
+{
+    --highlight-flare: #007b2a;
+    --highlight-secondary: #88c588;
+    --highlight-dark: #026c1d;
+    --text-color: black;
+    --text-color-secondary: #565656;
+    --background-color: #f8fff7;
+    --background-color-highlight: #daf7d7;
+    
+    @media (prefers-color-scheme: dark) {
+        --text-color: #e4e7e4;
+	--text-color-secondary: #afafaf;
+	--background-color: #1d1e1c;
+	--highlight-secondary: #1a8426;
+	--background-color-highlight: #0e4f09;
+    }
+    
+}
+
+
+.blue
+{
+    --highlight-flare: #2886ff;
+    --highlight-secondary: #add4fd;
+    --highlight-dark: #006adb;
+    --text-color: black;
+    --text-color-secondary: #686868;
+    --background-color: white;
+    --background-color-highlight: #d7ebf7;
+
+    @media (prefers-color-scheme: dark) {
+	--text-color: #e4e5e7;
+	--text-color-secondary: #afafaf;
+	--background-color: #1c1d1e;
+	--highlight-secondary: #1a5784;
+	--background-color-highlight: #09284f;
+    }
+}
+
+.darkBlue
+{
+    --highlight-flare: #285eff;
+    --highlight-secondary: #adbdfd;
+    --highlight-dark: #0018db;
+    --text-color: black;
+    --text-color-secondary: #565656;
+    --background-color: white;
+    --background-color-highlight: #d7d9f7;
+    @media (prefers-color-scheme: dark) {
+	--text-color: #e4e4e7;
+	--text-color-secondary: #afafaf;
+	--background-color: #1c1c1e;
+	--highlight-secondary: #1a1c84;
+	--background-color-highlight: #09114f;
     }
 }
 

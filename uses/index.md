@@ -1,6 +1,7 @@
 ---
 layout: detailed_index
 title: uses
+color: green
 ---
 ## Hardware
 I have a [Samsung Galaxy A50](https://en.wikipedia.org/wiki/Samsung_Galaxy_A50) phone and a Thinkpad T16 with a 12th Gen Intel i7 processor and 32GB of RAM. I also have a [Rasberry Pi 1A+](https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus/) that I use as a server.

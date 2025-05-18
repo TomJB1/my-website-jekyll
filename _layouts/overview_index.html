@@ -13,7 +13,7 @@ layout: compress
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/list-pages.css">
 </head>
-<body>
+<body class="{{page.color}}">
     <a href="..">go up ^</a>
     <h1>index of {{page.title}} {% if page.tag_page %}| <a href="{{page.tag_page}}">tags</a>{%endif%} {% if page.rss == true %} (<a rel="alternate" type="application/rss+xml" href="./feed.xml" title="Tom Brandis">rss</a>) {%endif%}</h1>
     <ul>
