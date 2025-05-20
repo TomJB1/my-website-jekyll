@@ -84,48 +84,48 @@ Biography: Hi! I'm Tom. I do physics, computer science and maths at A level and 
         <h1><a href="https://tombrandis.uk">Tom Brandis</a></h1>
     </header>
     <main>
-    <div id="bio">
-        <p class="highlight-flair">{{page.Biography}}</p>
-    </div>
+	<article id="bio">
+            <p class="highlight-flair">{{page.Biography}}</p>
+	</article>
 
-    <div id="skills">
-        <h2>Skills</h2>
-        <form id="select-skills">
-        </form>
-        <ul id="things" class="no-bullet" aria-live="assertive">
-            {% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil and post.skills.size != 0 " %}
-            {% assign things = skillPosts | concat: site.reports | concat: site.data.skills %}
-            {% for thing in things %}
-            
-            {% if thing.skills.first %}
-            {% assign skills = thing.skills %}
-            {% else %}
-            {% assign skills = thing.skills | split: " " %}
-            {% endif %}
+	<article id="skills">
+            <h2>Skills</h2>
+            <form id="select-skills">
+            </form>
+            <ul id="things" class="no-bullet" aria-live="assertive">
+		{% assign skillPosts = site.posts | where_exp:"post", "post.skills != nil and post.skills.size != 0 " %}
+		{% assign things = skillPosts | concat: site.reports | concat: site.data.skills %}
+		{% for thing in things %}
+		
+		{% if thing.skills.first %}
+		{% assign skills = thing.skills %}
+		{% else %}
+		{% assign skills = thing.skills | split: " " %}
+		{% endif %}
 
-            <li class="thing {{skills | join: " " }} ALL">
-                <p>{% if thing.link != nil or thing.url != nil%}<a href="{{thing.link}}{{thing.url}}">{{thing.title}}</a>{%else%}{{thing.title}}{%endif%}
-                {% if thing.pdf != nil %}
-                | <a href="{{thing.pdf}}">pdf</a>
-                {%endif%}
-                </p>
-                <p class="thing-skills">({{skills | join: ", "}})</p>
-            </li>
-            {% endfor %}
-        </ul>
-        <div id="buttons">
+		<li class="thing {{skills | join: " " }} ALL">
+                    <p>{% if thing.link != nil or thing.url != nil%}<a href="{{thing.link}}{{thing.url}}">{{thing.title}}</a>{%else%}{{thing.title}}{%endif%}
+			{% if thing.pdf != nil %}
+			| <a href="{{thing.pdf}}">pdf</a>
+			{%endif%}
+                    </p>
+                    <p class="thing-skills">({{skills | join: ", "}})</p>
+		</li>
+		{% endfor %}
+            </ul>
+	</article>
+	<article id="buttons">
             {% assign PixelButtons = page.PixelButtons | sample: page.PixelButtons.size %} {% comment %} Shuffle PixelButtons {% endcomment %}
             {% for button in PixelButtons %}
-                {% if button.Link != nil %}
-                <a href="{{button.Link}}">
-                {%endif%}
-                    <img src="{{button.Art}}" width="176" height="62" alt="{{button.Alt}}">
-                {% if button.Link != nil %}
-                </a>
-                {%endif%}
+            {% if button.Link != nil %}
+            <a href="{{button.Link}}">
+		{%endif%}
+		<img src="{{button.Art}}" width="176" height="62" alt="{{button.Alt}}">
+		{% if button.Link != nil %}
+            </a>
+            {%endif%}
             {% endfor %}
-        </div>
-    </div>
+	</article>
     </main>
 </body>
 </html>
