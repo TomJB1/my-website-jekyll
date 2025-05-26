@@ -16,6 +16,7 @@ So you want to make a website?
 Firstly get a bit of paper (or a notes app) and figure out what you want it to be like. Is it about a hobby, for a blog or a resume? Maybe its a mixture. Either way allow yourself to get a bit excited about it.
 
 This guide will only be covering static websites - those that are the same whoever looks at them, like this website. Dynamic websites (like a social media site) can be a little bit more expensive/complicated to run.
+<aside>I wasn't very happy with this so I rewrote some of it in [[2025-05-26-Resources for making a website]].</aside>
 ## Hosting
 Web hosting can come in various levels of complexity; to simplify things I have separated this section into blog vs website to separate simple non-technical solutions from having your own full-blown website.
 ### Blog hosting
