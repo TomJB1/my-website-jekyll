@@ -69,8 +69,11 @@ label:has(> input:checked)
 }
 
 #buttons{
-    margin-bottom: 50px;
-    margin-top: 100px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,176px);
+    justify-content: center;
+    display: grid;
+    padding: 45px;
 
     & a {
         text-decoration: none;
