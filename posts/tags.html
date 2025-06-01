@@ -17,14 +17,12 @@ regenerate: true
         <a href="#{{tag[0]}}">#{{tag[0]}}</a>
     {%endfor%}
     {% for tag in sorted_tags %}
-        {% if tag[1].size > 1 %}
         <h2 id="{{tag[0]}}">{{tag[0] | replace: "_", " "}}</h2>
         <ul>
             {% for post in tag[1] %}
             <li><a href="{{post.url}}">{{post.title}}</a>{% if  post.favourite %}<span class="star">★<span class="small">favourite</span></span>{%endif%}</li>
             {%endfor%}
         </ul>
-        {%endif%}
     {%endfor%}
 </body>
 </html>
