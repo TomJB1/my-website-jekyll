@@ -64,6 +64,13 @@ layout: compress
       {%endfor%}
     {%endif%}
 
+    <h2>tags</h2>
+    <ul>
+    {% for tag in page.tags %}
+        <li><a href="./tags.html#{{tag}}">{{tag}}</a></li>
+    {%endfor%}
+    </ul>
+
     {% assign has_heading = false %}
     {% for post in site.posts %}
       {% for tag in page.tags %}

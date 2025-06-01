@@ -14,9 +14,7 @@ regenerate: true
     <h1>posts sorted by tag | <a href="/posts/">chronological</a></h1>
     {% assign sorted_tags = site.tags | sort_natural %}
     {% for tag in sorted_tags %}
-        {% if tag[1].size > 1 %}
-            <a href="#{{tag[0]}}">#{{tag[0]}}</a>
-        {%endif%}
+        <a href="#{{tag[0]}}">#{{tag[0]}}</a>
     {%endfor%}
     {% for tag in sorted_tags %}
         {% if tag[1].size > 1 %}
