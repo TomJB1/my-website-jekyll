@@ -294,6 +294,18 @@ table
     }
 }
 
+blockquote
+{
+    margin: 1em;
+    p
+    {
+	background: var(--background-color-highlight);
+	border-left: var(--text-color) 0.1em solid;
+	padding: 0.2em 0.2em 0.2em 1em;
+	max-width: 28rem;
+    }
+}
+
 
 strong
 {
