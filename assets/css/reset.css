@@ -24,6 +24,7 @@
     --highlight-dark: #db0000;
     --text-color: black;
     --text-color-secondary: #565656;
+    --text-color-highlight: var(--highlight-dark);
     --background-color: white;
     --background-color-highlight: #f7d7d7;
     font-size: 18px;
@@ -33,6 +34,7 @@
 	--text-color-secondary: #afafaf;
         --background-color: rgb(30, 28, 28);
         --highlight-secondary: #841a1a;
+	--text-color-highlight: var(--highlight-flare);
         --background-color-highlight: #4f0909;
     }
 }
@@ -309,7 +311,7 @@ blockquote
 
 strong
 {
-    text-decoration: double underline;
+    color: var(--text-color-highlight);
 }
 
 footer small {
