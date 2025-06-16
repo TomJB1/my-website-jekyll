@@ -43,33 +43,40 @@ layout: compress
     <main id="post-content">
     {{ content }}
     </main>
+    <p>Written by <a href="https://tombrandis.uk">Tom Brandis</a></p>
 
     <footer>
 
-    <p>Written by <a href="https://tombrandis.uk">Tom Brandis</a></p>
+    
 
     {% for post in site.posts %}
       {% if post.previous_in_series == page.title %}
+       <div>
         <h2>next post in series</h2>
         <p><a href="{{post.url}}">{{post.title}}</a>{% if  post.favourite %}<span class="star">★<span class="small">favourite</span></span>{%endif%}</p>
+	</div>
       {% endif %}
     {%endfor%}
 
     {% if page.previous_in_series != nil %}
       {% for post in site.posts %}
         {% if page.previous_in_series == post.title %}
+	  <div>
           <h2>previous post in series</h2>
           <p><a href="{{post.url}}">{{post.title}}</a>{% if  post.favourite %}<span class="star">★<span class="small">favourite</span></span>{%endif%}</p>
         {% endif %}
       {%endfor%}
+          </div>
     {%endif%}
 
+    <div>
     <h2>tags</h2>
     <ul>
     {% for tag in page.tags %}
         <li><a href="./tags.html#{{tag}}">{{tag}}</a></li>
     {%endfor%}
     </ul>
+    </div>
 
     {% assign has_heading = false %}
     {% for post in site.posts %}
@@ -77,6 +84,7 @@ layout: compress
 
         {% if post.tags contains tag and post.title!=page.title and post.previous_in_series!=page.title and page.previous_in_series!=post.title %}
           {%  if has_heading != true %}
+	    <div id="related">
             <h2>related posts</h2><ul>
             {% assign has_heading = true %}
           {%endif%}
@@ -88,9 +96,11 @@ layout: compress
     {%endfor%}
     {% if has_heading %}
     </ul>
+    </div>
     {%endif%}
 
     {% if page.replies %}
+    <div>
     <h2>replies</h2>
     <ul>
 	{% for reply in page.replies  %}
@@ -98,16 +108,21 @@ layout: compress
 	<li><a href="{{reply_array[1]}}">{{reply_array[0]}}</a></li>
 	{%endfor%}
     </ul>
+    </div>
     {%endif%}
 
+    <div>
     <h2>reply</h2>
+    <p>I love to recieve replies!</p>
     <ul>
       <li><a href="mailto:tom@tombrandis.uk?subject=Reply to: {{page.title}}">mail me</a></li>
       <li><a href="https://mastodonapp.uk/@tombrandis">fediverse ⁂</a></li>
     </ul>
+    </div>
 
 
     {% if page.related %}
+    <div>
     <h2>related links</h2>
     <ul>
 	{% for related_thing in page.related  %}
@@ -115,11 +130,14 @@ layout: compress
 	<li><a href="{{related_array[1]}}">{{related_array[0]}}</a></li>
 	{%endfor%}
     </ul>
+    </div>
     {%endif%}
 
+    <div>
     <h2>view source</h2>
     <ul><li><a href="https://github.com/TomJB1/my-website-jekyll/blob/main/_posts/published/{{page.name}}?plain=1">github</a></li></ul>
-
+    </div>
+    
     </footer>
   </body>
 </html>

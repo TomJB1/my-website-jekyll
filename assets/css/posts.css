@@ -11,6 +11,7 @@ h1
     }
 }
 
+
 p
 {
     margin: 0px;
@@ -75,8 +76,29 @@ main
   }
 
 footer {
-    margin: auto;
-    width: fit-content;
+    margin: 5em 0;
+    grid-gap: 3em;
+    grid-template-columns: repeat(auto-fit,minmax(5em,15em));
+    justify-content: center;
+    display: grid;
+
+    div
+    {
+	border: solid 0.1em var(--background-color-highlight);
+	padding: 1em;
+	background-color: var(--background-color-secondary);
+    }
+
+    footer p
+    {
+	text-align: left;	
+    }
+
+    @media (min-width: 38em) {
+    #related {
+	grid-column: span 2;
+    }
+    }
 }
 
 a:has(img)
