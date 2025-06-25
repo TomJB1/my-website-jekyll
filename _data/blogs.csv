@@ -2,11 +2,14 @@ name,xmlUrl,htmlUrl
 32-Bit Cafe Bytes,https://listmonk.32bit.cafe/archive.xml,https://listmonk.32bit.cafe
 82MHz,https://82mhz.net/index.xml,https://82mhz.net
 404 Media,https://www.404media.co/rss/,https://www.404media.co
+a brief departure (Robb Owen),https://departures.robbowen.digital/feed.xml,https://departures.robbowen.digital
 adast RSS Feed,https://adast.dk/index.rss,https://adast.dk
 Alex Schroeder’s Diary,https://alexschroeder.ch/view/index.rss,https://alexschroeder.ch
 Always Judge a Book by its Cover,https://alwaysjudgeabookbyitscover.com/index.xml,https://alwaysjudgeabookbyitscover.com
 Anders Thoresson,https://anders.thoresson.se/rss/rss.xml,https://anders.thoresson.se
+anhvn,https://anhvn.com/feed.xml,https://anhvn.com
 Artists and Hackers,https://www.artistsandhackers.org/feed.xml,https://www.artistsandhackers.org
+ava's blog,https://blog.avas.space/feed/,https://blog.avas.space
 Axe Drax,https://axedrax.uk/feed/,https://axedrax.uk
 BIG by Matt Stoller,https://www.thebignewsletter.com/feed,https://www.thebignewsletter.com
 Bobby's Blog,https://bobbyhiltz.com/atom.xml,https://bobbyhiltz.com
@@ -16,10 +19,13 @@ brokkr.net,https://brokkr.net/feed/,https://brokkr.net
 Cassidy Williams,https://cassidoo.co/rss.xml,https://cassidoo.co
 Chartography,https://www.chartography.net/feed,https://www.chartography.net
 Christian Heilmann,https://christianheilmann.com/feed/,https://christianheilmann.com
+CJ The X,https://cjthex.com/feed/,https://cjthex.com
 Clayton Wramsey,https://claytonwramsey.com/blog/rss.xml,https://claytonwramsey.com
 Climate Town,https://www.climatetown.news/feed.xml,https://www.climatetown.news
+Concretedog,https://www.blogger.com/feeds/8020589647029137450/posts/default,https://www.blogger.com
 Daley's blog,https://lingwhatics.ca/feed.xml,https://lingwhatics.ca
 danluu.com/atom.xml,https://danluu.com/atom.xml,https://danluu.com
+Dan Sinker's Blog,https://dansinker.com/feed.xml,https://dansinker.com
 datagubbe,https://datagubbe.se/atom.xml,https://datagubbe.se
 dbushell.com,https://dbushell.com/rss.xml,https://dbushell.com
 Dead Archivist Society,https://transjovian.org/view/archives/index.rss,https://transjovian.org
@@ -30,6 +36,7 @@ Dungeon Masters Guild Newsletter:,https://www.dmsguild.com/newsletter_rss_feed.p
 DysonLogos.com,http://www.dysonlogos.com/feed/,https://www.dysonlogos.com
 Ed Zitron's Where's Your Ed At,https://www.wheresyoured.at/rss/,https://www.wheresyoured.at
 Elpis zine,https://elpis.ws/rss.xml,https://elpis.ws
+endtimes.dev,https://endtimes.dev/feed.xml,https://endtimes.dev
 Eric Bailey,https://ericwbailey.website/feed/feed.xml,https://ericwbailey.website
 evil female,https://www.evilfemale.blog/feed,https://www.evilfemale.blog
 Existential Comics,https://existentialcomics.com/rss.xml,https://existentialcomics.com
@@ -60,18 +67,22 @@ jwz,https://cdn.jwz.org/blog/feed/,https://cdn.jwz.org
 Krebs on Security,https://krebsonsecurity.com/feed/,https://krebsonsecurity.com
 leanrada.com notes,https://leanrada.com/rss.xml,https://leanrada.com
 Let's Encrypt,https://letsencrypt.org/feed.xml,https://letsencrypt.org
+localghost,https://localghost.dev/feed.xml,https://localghost.dev
 LOW←TECH MAGAZINE English,https://solar.lowtechmagazine.com/posts/index.xml,https://solar.lowtechmagazine.com
 LRB blog,https://www.lrb.co.uk/blog/feed,https://www.lrb.co.uk
 Ludicity,https://ludic.mataroa.blog/rss/,https://ludic.mataroa.blog
 lyra's epic blog!,https://lyra.horse/blog/posts/index.xml,https://lyra.horse
 Marcos Leben Blog,https://www.marcozehe.de/rss.xml,https://www.marcozehe.de
+mat does dev,https://matdoes.dev/blog.rss,https://matdoes.dev
+Melvian.net,https://melvian.net/updates/index.xml,https://melvian.net
+Minutes to Midnight,https://minutestomidnight.co.uk/feed.xml,https://minutestomidnight.co.uk
 "Mister, is this right?",https://misteristhisright.com/feed/,https://misteristhisright.com
 moddedbear.com,https://moddedbear.com/index.xml,https://moddedbear.com
 Musings,https://benjaminhollon.com/musings/feed/,https://benjaminhollon.com
 MyNotes - RSS Feed,https://my-notes.dragas.net/rss.xml,https://my-notes.dragas.net
 Ned Batchelder's blog,https://nedbatchelder.com/blog/rss.xml,https://nedbatchelder.com
 Nemanja Mijailovic’s Blog,https://mijailovic.net/feed.xml,https://mijailovic.net
-New Scientist - Home,https://www.newscientist.com/feed/home/,https://www.newscientist.com
+Notes by JCProbably,https://notes.jeddacp.com/feed/,https://notes.jeddacp.com
 p1k3,https://p1k3.com/feed,https://p1k3.com
 paritybit.ca,https://www.paritybit.ca/feed.xml,https://www.paritybit.ca
 Pharyngula,https://freethoughtblogs.com/pharyngula/feed/,https://freethoughtblogs.com
@@ -84,6 +95,7 @@ Pushing Buttons newsletter | The Guardian,https://www.theguardian.com/games/seri
 Ratfactor Feed,https://ratfactor.com/atom.xml,https://ratfactor.com
 ReconLabs,https://shelbyruettiger.substack.com/feed,https://shelbyruettiger.substack.com
 Robb Knight • Posts • Atom Feed,https://rknight.me/subscribe/posts/atom.xml,https://rknight.me
+Robb Owen,https://robbowen.digital/feed.xml,https://robbowen.digital
 rootwork v0.2,https://write.as/hobbsc/feed/,https://write.as
 Saturday Morning Breakfast Cereal,https://www.smbc-comics.com/comic/rss,https://www.smbc-comics.com
 scientiac::syntropy,https://scientiac.space/atom.xml,https://scientiac.space
@@ -94,6 +106,7 @@ Solitas atom feed,https://solita.neocities.org/feed.xml,https://solita.neocities
 starbreaker.org,https://starbreaker.org/follow/everything.xml,https://starbreaker.org
 Stories by Nassim Nicholas Taleb on Medium,https://medium.com/@nntaleb/feed,https://medium.com
 Striking 13,https://iandunt.substack.com/feed,https://iandunt.substack.com
+Studio Notes - SOPHY WONG,https://sophywong.com/studionotes?format=rss,https://sophywong.com
 Subpixel Space,https://subpixel.space/feed.xml,https://subpixel.space
 Tangle,https://www.readtangle.com/archive/rss/,https://www.readtangle.com
 taylor.town,https://taylor.town/feed.xml,https://taylor.town
@@ -101,6 +114,7 @@ Ten Digits,https://tendigits.space/feed.xml,https://tendigits.space
 The Alexandrian,https://thealexandrian.net/feed,https://thealexandrian.net
 The Angry GM,https://theangrygm.com/feed/,https://theangrygm.com
 The Curious Creations of Tim Holman,https://tholman.com/feed.xml,https://tholman.com
+TheEvilSkeleton,https://tesk.page/feed.xml,https://tesk.page
 The Hermit Technology Blog - Hermit Tech,https://www.hermit-tech.com/blog?format=rss,https://www.hermit-tech.com
 The Indie Web,https://theindieweb.com/feed.xml,https://theindieweb.com
 thejaymo,https://thejaymo.net/feed/,https://thejaymo.net
@@ -111,6 +125,7 @@ The Markup,https://themarkup.org/feeds/rss.xml,https://themarkup.org
 The Pudding,https://pudding.cool/rss.xml,https://pudding.cool
 the second page,https://secondpage.bearblog.dev/feed/,https://secondpage.bearblog.dev
 The Spite Stack,https://thespitestack.substack.com/feed,https://thespitestack.substack.com
+The Stock Pot (Videos),https://www.thestockpot.net/videos?format=rss,https://www.thestockpot.net
 The Thunderbird Blog,https://blog.thunderbird.net/feed/,https://blog.thunderbird.net
 The War on Cars,https://feeds.libsyn.com/132228/rss,https://feeds.libsyn.com
 The Wild Blog in the West,https://www.blogger.com/feeds/8080596742132031255/posts/default,https://www.blogger.com
@@ -118,12 +133,15 @@ Timo Tijhof,https://timotijhof.net/feed/,https://timotijhof.net
 Tommi space zibaldone,https://tommi.space/zibaldone.xml,https://tommi.space
 Tom Scott's Weekly Newsletter,https://www.tomscott.com/updates.xml,https://www.tomscott.com
 Trans Writes,https://transwrites.world/feed/,https://transwrites.world
+tulip's digital diary,https://blog.platinumtulip.net/feed/,https://blog.platinumtulip.net
 Tyler Gaw's blog,https://tylergaw.com/rss.xml,https://tylergaw.com
 V.H. Belvadi,https://vhbelvadi.com/rss-newsletter,https://vhbelvadi.com
 Vale.Rocks Posts,https://vale.rocks/posts/feed.xml,https://vale.rocks
+Vasilis,https://vasilis.nl/feeds/vasilis-all.xml,https://vasilis.nl
 Waging Nonviolence,https://wagingnonviolence.org/feed/,https://wagingnonviolence.org
 weird wide web hole by whitep4nth3r,https://buttondown.com/weirdwidewebhole/rss,https://buttondown.com
 What Do We Do Now That We're Here?,https://rojospinks.substack.com/feed,https://rojospinks.substack.com
 whitep4nth3r's Web Feed,https://whitep4nth3r.com/feed.xml,https://whitep4nth3r.com
 World Playground Deceit - New content,https://world-playground-deceit.net/global.xml,https://world-playground-deceit.net
 xkcd comics,https://xkcd.com/atom.xml,https://xkcd.com
+マリウス,https://xn--gckvb8fzb.com/index.xml,https://xn--gckvb8fzb.com
