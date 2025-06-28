@@ -19,8 +19,8 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-python $SCRIPT_DIR/blogroll/get_blogs.py
-python $SCRIPT_DIR/links/create_feed.py
+python3 $SCRIPT_DIR/blogroll/get_blogs.py
+python3 $SCRIPT_DIR/links/create_feed.py
 
 git fetch
 if [[ `git status --porcelain` ]] && [ -z "$force" ] && [ -z "$local" ]; then
