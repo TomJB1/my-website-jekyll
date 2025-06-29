@@ -4,10 +4,10 @@ cd "${SCRIPT_DIR}/../.."
 DIR=$(pwd)
 
 if [ -n "$1" ]; then
-    python $SCRIPT_DIR/add_link.py "$1" "$2" "$3"
+    python3 $SCRIPT_DIR/add_link.py "$1" "$2" "$3"
 fi
 
-python $SCRIPT_DIR/create_feed.py
+python3 $SCRIPT_DIR/create_feed.py
 
 if [[ "$OSTYPE" == "msys" ]]; then
     export MSYS_NO_PATHCONV=1
