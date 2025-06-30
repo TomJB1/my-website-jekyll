@@ -6,7 +6,9 @@ rss: true
 tag_page: tags.html
 ---
 {% for post in site.posts %}
+{% if post.unlisted != true %}
   <li>
       <time datetime="{{post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%d/%m/%y" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a>{% if  post.favourite %}<span class="star">★<span class="small">favourite</span></span>{%endif%}
   </li>
+{% endif  %}  
 {% endfor %}

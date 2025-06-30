@@ -38,7 +38,8 @@ layout: compress
         <ul id="pages" class="highlight-flair">
             <li class="purple"><a href="/about-me.html" class="big">about me</a></li>
             <li><a href="/posts">posts</a></li>
-            <li>latest post: <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></li>
+	    {% assign listed_posts = site.posts | where_exp: "post", "post.unlisted != true" %}
+            <li>latest post: <a href="{{ site.posts[0].url }}">{{ listed_posts[0].title }}</a></li>
             <li class="orange"><a href="/reports">reports</a></li>
             <li class="orange"><a href="/presentations">presentations</a></li>
             <li class="yellow"><a href="/music">music I like</a></li>
