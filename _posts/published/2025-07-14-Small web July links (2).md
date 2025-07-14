@@ -45,6 +45,7 @@ So many more people:
 - [meyerweb.com](https://meyerweb.com/)
 - [tecnolocuras](https://tecnolocuras.com/)
 - [pthorpe92](https://pthorpe92.dev/)
+
 ## Tools
 [Unsure calculator](https://filiph.github.io/napkin/) is a calculator that can handle uncertainties.
 
