@@ -27,7 +27,7 @@ So many more people:
 - [anhvn](https://anhvn.com/)
 - [evergreen's corner](https://elj.me/)
 - [The Stock Pot](https://www.thestockpot.net/)
-- [Media by Steve Peterson | Highest Search Volume | peterson project](https://thepetersonproject.com/)
+- [peterson project](https://thepetersonproject.com/)
 - [localghost](https://localghost.dev/)
 - [Thomasorus](https://thomasorus.com/home.html)
 - [Vasilis van Gemert’s personal homepage](https://vasilis.nl/)
