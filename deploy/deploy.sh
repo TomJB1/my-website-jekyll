@@ -33,7 +33,7 @@ else
     fi
 
     if [ -z "$maxify" ]; then
-        npx lightningcss --minify $JEKYLL_DIR/_site/assets/css/*.css -d $JEKYLL_DIR/_site/assets/css/
+        npx lightningcss-cli --minify $JEKYLL_DIR/_site/assets/css/*.css -d $JEKYLL_DIR/_site/assets/css/
     fi
 
     if [ -n "$clean" ] && [ -z "$local" ]; then
