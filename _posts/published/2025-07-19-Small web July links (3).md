@@ -6,7 +6,6 @@ tags:
 skills: 
 layout: default
 edited_date: 
-title: Small web July links (3)
 previous_in_series: Small web July links (2)
 rss_date: Sat, 19 July 2025 21:33 GMT
 ---
