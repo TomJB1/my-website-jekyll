@@ -8,6 +8,7 @@ layout: compress
     <meta charset="utf-8">
     <meta name="description" content="post by Tom Brandis - {{ page.title }}">
     <meta name="keywords" content="{{page.tags | join: ", " | replace: "_", " "}}">
+    <link rel="canonical" href="{{ site.url  }}{{ page.url  }}">
 
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/reset.css" | relative_url }}">
